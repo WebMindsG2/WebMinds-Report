@@ -18,7 +18,7 @@
 
 **Integrantes:**
 - Orlando Arturo Roca Huapaya - u201919742
-- [Nombre del Integrante 2]
+- Paolo Sebastian Padilla Advincula- u202117993
 - [Nombre del Integrante 3]
 
 **Ciclo:** 2023-02
