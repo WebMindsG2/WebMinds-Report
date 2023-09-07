@@ -1,4 +1,4 @@
-**4.5. Web Applications Prototyping.**
+**4.5. Web Applications Prototype.**
 
 En esta sección se compartirá el prototipo relacionado a la aplicación web, donde se presentan el alcance de los user goals en los usuarios objetivos. A continuación, se adjunta el link al video completo de Web Applications Prototyping.
 
