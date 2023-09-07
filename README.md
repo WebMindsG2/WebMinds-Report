@@ -853,4 +853,365 @@ En esta sección redactamos las historias de User necesarias para el correcto fu
 |26|US28|Cambiar de Idioma a Español/Inglés|Como visitante del segmento Guest/Host, quiero tener la opción de cambiar el idioma del sitio entre español e inglés.|1|
 
 
+# Capítulo IV: Product Design 
+
+## 4.1. Style Guidelines.
+### 4.1.1. General Style Guidelines.
+
+* Branding:
+
+  El branding de Parkease busca transmitir eficiencia, confianza y modernidad. Utilizamos una combinación de colores y elementos visuales que reflejan los valores fundamentales de nuestra plataforma.
+
+
+* Typography:
+
+  Hemos elegido la fuente tipográfica "Poppins" como nuestra principal elección para el texto. Poppins es una fuente moderna y legible que complementa nuestra imagen de marca al transmitir claridad y accesibilidad.
+
+* Colors:
+
+  Nuestra paleta de colores incluye:
+
+  Amarillo: Representa la energía y la alegría, reflejando la idea de una experiencia de estacionamiento optimizada.
+
+  Azul: Transmite confianza, seguridad y profesionalismo, asegurando a los usuarios que Parkease es una solución confiable.
+
+  Negro: Refleja elegancia, modernidad y seriedad, destacando nuestra calidad y compromiso con la excelencia.
+
+* Tono de Comunicación y Lenguaje:
+
+  El tono de comunicación de Parkease es una mezcla de profesionalismo y amigabilidad. Nuestro lenguaje es claro y conciso, pero también muestra empatía hacia las necesidades de nuestros usuarios. Mantenemos un equilibrio entre lo formal y lo casual, manteniendo un enfoque respetuoso pero accesible.
+
+
+### 4.1.2. Web Style Guidelines. 
+
+* Colores:
+
+  * Colores Primarios:
+
+    #F6EB0F:El amarillo es un color brillante y alegre que puede reflejar la idea de que Parkease ofrece una solución que mejora la experiencia de estacionamiento, lo que a su vez puede generar una sensación de felicidad y optimismo entre los conductores.
+
+
+    #001F3F:El azul es ampliamente conocido por transmitir confianza y seguridad. Utilizar el color azul en la plataforma Parkease puede comunicar que la aplicación es confiable y que los usuarios pueden sentirse seguros al utilizarla para encontrar y reservar espacios de estacionamiento.
+
+  * Colores Secundario:
+
+    #000000:El negro se asocia con profesionalismo y seriedad. Puede comunicar que Parkease es una plataforma confiable y comprometida en brindar un servicio de calidad a sus usuarios. 
+
+
+## 4.2. Information Architecture.
+### 4.2.1. Organization Systems.
+
+**Organización Visual del Contenido:**
+
+**Jerarquía Visual:**
+
+Utilizaremos una jerarquía visual clara para destacar elementos cruciales, como la búsqueda de espacios, la reserva y la información del usuario. Esto asegurará que los usuarios puedan identificar rápidamente las funciones clave y sepan dónde dirigirse para lograr sus objetivos.
+
+**Organización Secuencial (Step-by-Step to Accomplish):** Implementaremos un enfoque de organización secuencial en el proceso de reserva de espacios. Guiaremos a los usuarios paso a paso, desde la búsqueda hasta la confirmación, para asegurarnos de que cada etapa sea comprensible y fácil de seguir.
+
+**Organización Matricial:** En casos donde haya múltiples opciones o características, como los planes de suscripción, utilizaremos una organización matricial para presentar de manera clara y comparativa las diferentes opciones. Esto ayudará a los usuarios a tomar decisiones informadas.
+
+**Esquemas de Categorización de Contenido:**
+
+**Cronológico:** Emplearemos la categorización cronológica en secciones como "Historial de Reservas" para que los usuarios puedan rastrear y revisar sus acciones pasadas de manera ordenada.
+
+
+**Según Audiencia (Grupos de Usuarios):** Utilizaremos la categorización según grupos de usuarios en áreas como "Opciones de Suscripción", donde ofreceremos planes personalizados para diferentes tipos de conductores.
+
+### 4.2.2. Labeling Systems.
+
+Este enfoque utiliza texto claro y conciso para identificar las funciones y secciones en el landing page, manteniendo el estilo minimalista y facilitando la comprensión de los usuarios. Además, se han etiquetado los botones y enlaces de navegación para una experiencia de usuario más clara. Por otro lado se utilizaron íconos de colores para representar características de la aplicación y redes sociales
+
+![Texto alternativo](Images-chapter4/LABELING%20SYSTEMS%202.png)
+![Texto alternativo](Images-chapter4/LABELING%20SYSTEMS.png)
+
+
+### 4.2.3. SEO Tags and Meta Tags 
+
+**Landing Page:**
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ParkEase - Encuentra y Reserva Estacionamiento Fácilmente</title>
+<meta name="description" content="ParkEase simplifica tu experiencia de estacionamiento. Encuentra y reserva fácilmente espacios de estacionamiento cerca de ti. Únete a nosotros hoy.">
+<meta name="keywords" content="estacionamiento, reserva de estacionamiento, parqueo, estacionamiento cercano, ParkEase">
+<meta name="author" content="ParkEase Inc.">
+<link rel="stylesheet" href="style.css">
+
+```
+**Web application:**
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bienvenido a ParkEase - Tu Solución de Estacionamiento en Línea</title>
+<meta name="description" content="ParkEase es tu compañero confiable para encontrar y reservar espacios de estacionamiento. Descubre una forma más fácil de estacionar.">
+<meta name="keywords" content="reserva de estacionamiento en línea, aplicación de estacionamiento, estacionamiento seguro, encontrar estacionamiento">
+<meta name="author" content="ParkEase Inc.">
+<link rel="stylesheet" href="app-style.css">
+```
+
+### 4.2.4. Searching Systems.
+
+Un sistema de búsqueda efectivo permitirá a los usuarios encontrar rápidamente la información que necesiten y ofrecer opciones de filtro para personalizar sus búsquedas. La presentación de los resultados será clara y concisa, y los usuarios deben poder interactuar con los resultados para obtener más información y realizar reservas si es necesario.
+
+**Opciones de Búsqueda:**
+
+- Búsqueda por Ubicación
+- Búsqueda por Fecha y Hora
+- Filtros de Precio
+- Tipo de Estacionamiento
+- Reseñas y Calificaciones
+
+**Aspecto de los Datos Después de la Búsqueda:**
+
+- Lista de Resultados
+- Mapa Interactivo
+- Filtros Adicionales
+- Información Detallada
+- Reservas
+- Ordenar Resultados
+
+### 4.2.5. Navigation Systems.
+
+**4.2.5. Navigation Systems.**
+
+El sistema de navegación en el Landing Page y las aplicaciones es crucial para guiar a los usuarios de manera efectiva.
+
+
+
+
+- **Menú de Navegación Claro:** Utiliza un menú visible con botones y texto claro para las secciones importantes.
+
+
+
+
+- **Estructura Jerárquica:** Organiza la información de manera jerárquica, destacando lo más importante.
+
+
+
+
+- **Enlaces y Botones Reales:** Utiliza enlaces y botones descriptivos y relevantes.
+
+
+
+
+- **Barra de Búsqueda:** Incluye una barra de búsqueda para facilitar la búsqueda de información.
+
+
+
+
+- **Rutas de Navegación Guiada:** Crea rutas paso a paso para tareas específicas.
+
+
+
+
+- **Mapas Interactivos:** Usa mapas que permitan explorar ubicaciones y detalles.
+
+
+
+
+- **Filtros y Categorías:** Ofrece filtros y categorías para refinar búsquedas.
+
+
+
+
+- **Enlaces de Regreso**: Proporciona enlaces "Volver" para una navegación más fácil.
+
+
+
+
+- **Navegación Responsiva:** Asegura que la navegación sea efectiva en dispositivos móviles.
+
+
+
+
+- **Pruebas de Usuario:** Realiza pruebas y ajusta según el feedback de los usuarios.
+
+Un buen sistema de navegación mejora la experiencia del usuario al facilitar la búsqueda y la interacción. Diseñado pensado en las necesidades de nuestros usuarios para lograr una navegación efectiva.
+
+## 4.3. Landing Page UI Design. 
+
+**4.3. Landing Page UI Design.**
+
+Para el diseño de la UI de nuestro Landing Page, hemos traducido nuestras decisiones de diseño y arquitectura de información en un enfoque visual atractivo y funcional que refleja la esencia de ParkEase. Nuestro objetivo principal es brindar a los usuarios una experiencia elegante, fácil de usar y enfocada en la acción, donde puedan encontrar y reservar espacios de estacionamiento de manera rápida y sencilla. Aquí presentamos los principales aspectos de nuestro diseño UI:
+
+
+- **Paleta de Colores**
+- **Tipografía**
+- **Imágenes y Videos**
+- **Botones y Enlaces**
+- **Navegación**
+- **Secciones Destacadas**
+- **Formularios y Barra de Búsqueda**
+- **Responsive Design**
+- **Pruebas de Usuario**
+
+[Enlace Landing Page Web Application](https://www.figma.com/file/Q9B07z1mUm16qGXD2kWfm5/ParkEase-LandingPage-Desktop-(Copy)?type=design&node-id=0-1&mode=design&t=rb36hKP09ZH9lQOQ-0)
+
+[Enlace Landing Page Mobile](https://www.figma.com/file/NuFx225k1dH65JUiF840up/ParkEase-LandingPage-Mobile-(Copy)?type=design&node-id=0-1&mode=design&t=KaswbXPydhsY2oS0-0)
+
+
+### 4.3.1. Landing Page Wireframe.
+
+![Texto alternativo](Images-chapter4/WIREFRAMES.png)
+![Texto alternativo](Images-chapter4/WIREFRAMES2.png)
+![Texto alternativo](Images-chapter4/WIREFRAMES3.png)
+![Texto alternativo](Images-chapter4/WIREFRAMES4.png)
+
+### 4.3.2. Landing Page Mock-up. 
+
+![Texto alternativo](Images-chapter4/MOCKUP1.png)
+![Texto alternativo](Images-chapter4/MOCKUP2.png)
+![Texto alternativo](Images-chapter4/MOCKUP3.png)
+![Texto alternativo](Images-chapter4/MOCKUP4.png)
+![Texto alternativo](Images-chapter4/MOCKUP5.png)
+![Texto alternativo](Images-chapter4/MOCKUP6.png)
+
+## 4.4. Web Applications UX/UI Design.
+### 4.4.1. Web Applications Wireframes. 
+
+User goal: Preferencia y gestión de cuenta de los usuarios.
+
+- Crear cuenta
+- Inicio de sesión
+- Recuperación de contraseña
+- Métodos de pago
+- Historial de pagos
+
+User goal: Funcionalidades de búsqueda de los usuarios.
+
+- Búsqueda de un espacio de estacionamientos y filtrado de búsqueda.
+- Búsqueda de un espacio en la lista de favoritos.
+
+
+User goal: Mejora de soporte al cliente y experiencia de servicio
+
+- Acceso a las preguntas frecuentes y contacto con servicio técnico.
+
+
+User goal: Funcionalidad de pagos
+
+- Visualización y confirmación de pago.
+- Compra de suscripciones.
+
+User goal: Preferencia y gestión de cuenta
+
+- Editar información del perfil del usuario y actualizar métodos de pago.
+- Creación de listado de espacios de estacionamientos.
+- Visualización, gestión y configuración de espacios de estacionamiento.
+
+### 4.4.2. Web Applications Wireflow Diagrams.
+
+**User goal:Usuario se registra, recupera la contraseña o inicia sesión en la aplicación web.**
+
+**Descripción:**
+
+Al estar en la pestaña de bienvenida, el usuario tiene dos opciones: registrarse de manera gratuita rellenando el formulario con sus datos personales e iniciar sesión rellenando el formulario con su correo y contraseña. Además, en la pestaña iniciar sesión puede darle a la opción de recuperar contraseña para recibir un correo con las instrucciones de recuperación.
+
+**User goal: Seleccionar las preguntas frecuentes y soporte técnico**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la opción de preguntas frecuentes. El usuario puede seleccionar entre las preguntas frecuentes de arrendatarios y arrendadores. Si no consigue resolver sus dudas, en la pestaña de preguntas frecuentes y soporte puede contactar con una persona de servicio técnico.
+
+**User goal:Ver perfil y cambiar método de pago**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a su perfil. Dentro de la pestaña de perfil de usuario, puede cambiar sus datos como su nombre, apellidos, número de celular, DNI, correo electrónico y además cambiar el método de pago.
+
+**User goal: Visualización y búsqueda de estacionamientos favoritos**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a mis favoritos. Dentro de la pestaña de espacios de estacionamientos favoritos, el usuario puede visualizar los estacionamientos que ha seleccionado como favoritos y además puede filtrar la búsqueda por nombre de arrendador.
+
+**User goal: Visualización de historial de pagos de estacionamientos**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a historial de pagos. Dentro de la pestaña historial de pagos, el usuario puede visualizar los pagos que ha hecho con su respectiva fecha, método de pago, importe, nombre de arrendador y estado.
+
+**User goal:Información y pagos de las suscripciones**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a mi suscripción. Dentro de la pestaña tipos de suscripción, el usuario puede seleccionar el tipo de suscripción que desea tener y proceder al pago de esta.
+
+**User goal: Creación y visualización de espacio de estacionamiento**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar crear espacio. Dentro de la pestaña creación de espacio de estacionamiento, el usuario puede llenar el formulario con los datos de nombre, teléfono, precio por hora y día, información adicional y dirección. Al crear el nuevo estacionamiento, el usuario puede dirigirse a la pestaña de espacio de estacionamiento para visualizar y gestionar el nuevo espacio.
+
+**User goal: Búsqueda y pago de espacio de estacionamiento**
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede buscar los espacios de estacionamientos más cercanos a la ubicación de interés. Luego el usuario podrá seleccionar el resultado de su agrado y visualizar a detalle la información del arrendador y del espacio para así poder proceder al pago. Dentro del pago podrá modificar los detalles y visualizar un resumen del pago.
+
+### 4.4.2. Web Applications Mock-ups 
+
+User goal: Preferencia y gestión de cuenta de los usuarios.
+
+- Crear cuenta
+- Inicio de sesión
+- Recuperación de contraseña
+- Métodos de pago
+- Historial de pagos
+
+User goal: Funcionalidades de búsqueda de los usuarios.
+
+- Búsqueda de un espacio de estacionamientos y filtrado de búsqueda.
+- Búsqueda de un espacio en la lista de favoritos.
+
+User goal: Mejora de soporte al cliente y experiencia de servicio
+
+- Acceso a las preguntas frecuentes y contacto con servicio técnico.
+
+
+User goal: Funcionalidad de pagos
+
+- Visualización y confirmación de pago.
+- Compra de suscripciones.
+
+User goal: Preferencia y gestión de cuenta
+
+- Editar información del perfil del usuario y actualizar métodos de pago.
+- Creación de listado de espacios de estacionamientos.
+- Visualización, gestión y configuración de espacios de estacionamiento.
+
+### 4.4.3. Web Applications User Flow Diagrams.
+## 4.5. Web Applications Prototyping.
+En esta sección se compartirá el prototipo relacionado a la aplicación web, donde se presentan el alcance de los user goals en los usuarios objetivos. A continuación, se adjunta el link al video completo de Web Applications Prototyping.
+
+Link del prototipo de aplicación web: 
+
+<https://www.figma.com/proto/hskkxmfjjSNjqYkdBIoUlg/Mock-up?type=design&node-id=838-801&t=56PFpOeL9u0Q1qER-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=838%3A801>
+
+Link del video:
+
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EcEuPGWuCGdPsPl8sIY6SFIBdo3C39AfcYRA3U7P58k6hw?e=Rm0x1b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19>
+## 4.6. Domain-Driven Software Architecture.
+### 4.6.1. Software Architecture Context Diagram.
+![Alt text](image.png)
+### 4.6.2. Software Architecture Container Diagrams.
+![Alt text](image-1.png)
+### 4.6.3. Software Architecture Components Diagrams.
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-5.png)
+![Alt text](image-7.png)
+![Alt text](image-6.png)
+## 4.7. Software Object-Oriented Design.
+### 4.7.1. Class Diagrams.
+
+![Alt text](image-8.png)
+
+### 4.7.2. Class Dictionary. 
+## 4.8. Database Design.
+### 4.8.1. Database Diagram. 
+![Alt text](image-9.png)
+
+
 
