@@ -419,5 +419,360 @@ flexibles y convenientes para encontrar y usar estacionamientos en entornos urba
   - **Actitudes:** Buscar alquilar su espacio de estacionamiento, para sacar un beneficio económico.
 
 
-  # Capítulo II: Requirements Elicitation & Analysis 
-  
+# Capítulo II: Requirements Elicitation & Analysis 
+
+## 2.1. Competidores. 
+
+### SpotHero:
+
+SpotHero es una plataforma en línea que permite a los conductores encontrar, reservar y pagar por espacios de estacionamiento en áreas urbanas. Ofrece una amplia variedad de opciones de estacionamiento, desde garajes comerciales hasta estacionamiento en la calle. Los usuarios pueden buscar y comparar diferentes lugares de estacionamiento según la ubicación, el precio y las comodidades. SpotHero se consideraría competencia para ParkEase porque ambos se centran en resolver el problema de encontrar estacionamiento en entornos urbanos congestionados, aunque SpotHero se enfoca en la reserva de estacionamiento existente, mientras que ParkEase se orienta hacia la optimización y el uso eficiente de espacios no utilizados.
+
+### JustPark:
+
+JustPark es una plataforma que conecta a propietarios de espacios de estacionamiento con conductores que buscan lugares de estacionamiento en áreas urbanas. Permite a los propietarios listar sus espacios disponibles para alquiler, lo que proporciona una fuente adicional de ingresos. Al igual que ParkEase, JustPark aborda la falta de espacios de estacionamiento disponibles y la necesidad de optimizar el uso de esos espacios. Sin embargo, JustPark se centra en alquileres a corto plazo, mientras que ParkEase también busca la optimización a largo plazo y la conectividad entre los conductores y los propietarios.
+
+### Parkopedia:
+
+Parkopedia es un directorio global de lugares de estacionamiento que permite a los conductores encontrar y comparar opciones de estacionamiento en ciudades de todo el mundo. La plataforma proporciona información sobre la ubicación, disponibilidad, precios y comodidades de los lugares de estacionamiento. Parkopedia sería un competidor para ParkEase debido a su enfoque en proporcionar información detallada sobre lugares de estacionamiento disponibles. Sin embargo, ParkEase busca abordar la optimización y la eficiencia de los espacios no utilizados, lo que lo diferencia de Parkopedia que se centra principalmente en la búsqueda y comparación de lugares existentes.
+
+### 2.1.1. Análisis competitivo.
+
+<table><tr><th colspan="6" valign="top">Competitive Analysis Landscape</th></tr>
+<tr><td colspan="2" rowspan="2" valign="top"><p>¿Por qué llevar a cabo</p><p>este análisis?</p></td><td colspan="4" valign="top">Objetivo del análisis</td></tr>
+<tr><td colspan="4" valign="top"><p>¿Cómo analiza, produce y enfrenta el mercado mi</p><p>competencia?</p></td></tr>
+<tr><td colspan="2" valign="top">Startup</td><td valign="top">ParkEase</td><td valign="top">SpotHero</td><td valign="top">JustPark</td><td valign="top">Parkopedia</td></tr>
+<tr><td colspan="2" valign="top">Logo</td><td valign="top"></td><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td rowspan="2" valign="top">Perfil</td><td valign="top">Overview</td><td valign="top">ParkEase es una solución innovadora que se centra en la optimización y el uso eficiente de espacios de estacionamiento no utilizados en entornos urbanos. Al abordar la falta de estacionamiento y la congestión, ParkEase busca maximizar la utilización de estos espacios, ofreciendo soluciones a largo plazo que mejoran la gestión.</td><td valign="top">SpotHero es una plataforma en línea para reservar y pagar por espacios de estacionamiento en áreas urbanas, enfocándose en la conveniencia de la reserva anticipada. Su competencia se centra en optimizar y utilizar eficientemente espacios no utilizados en entornos urbanos.</td><td valign="top">JustPark es una plataforma que conecta propietarios de espacios de estacionamiento con conductores en busca de lugares en áreas urbanas, permitiendo el alquiler de espacios disponibles para generar ingresos adicionales.</td><td valign="top">Parkopedia opera como un directorio global de lugares de estacionamiento que permite a los conductores buscar y comparar opciones en ciudades de todo el mundo.</td></tr>
+<tr><td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td><td valign="top">Brinda a los propietarios la oportunidad de rentabilizar sus espacios no utilizados al ofrecerlos en alquiler. Con unenfoque en mejorar la experiencia del conductor y optimizar la utilización de activos.</td><td valign="top">Ofrece a los clientes la ventaja de reservar y pagar por espacios de estacionamiento con antelación, brindando comodidad y eliminando la incertidumbre en la búsqueda de estacionamiento en áreas urbanas.</td><td valign="top">Permite a los clientes generar ingresos al alquilar sus espacios de estacionamiento no utilizados, mientras ofrece a los conductores la facilidad de encontrar estacionamiento a corto plazo en áreas urbanas.</td><td valign="top">Proporciona a los clientes información detallada sobre opciones de estacionamiento en todo el mundo, permitiendo decisiones informadas y una planificación más efectiva al buscar y comparar lugares de estacionamiento.</td></tr>
+<tr><td rowspan="2" valign="top">Perfil de Marketing</td><td valign="top">Mercado Objetivo</td><td valign="top">Conductores urbanos que buscan estacionamiento conveniente y seguro a través de la tecnología, y propietarios de espacios no usados interesados en alquilarlos para beneficios económicos. Ambos grupos, hombres y mujeres de diversas edades y clases sociales.</td><td valign="top">Se dirige a conductores que viven en áreas urbanas congestionadas y que buscan soluciones para encontrar estacionamiento de manera más conveniente. Su mercado objetivo incluye personas que prefieren planificar y asegurar su estacionamiento con antelación, lo que puede incluir trabajadores, visitantes y turistas en ciudades.</td><td valign="top">Apunta a propietarios de espacios de estacionamiento no utilizados en áreas urbanas y a conductores que necesitan estacionamiento a corto plazo. Sus clientes son tanto propietarios individuales como empresas que desean alquilar sus espacios disponibles, así como conductores que buscan estacionamiento temporal en ciudades.</td><td valign="top">Se enfoca en conductores en busca de lugares de estacionamiento en ciudades de todo el mundo. Su mercado objetivo incluye una amplia gama de personas, desde conductores locales hasta turistas, que buscan información detallada sobre la ubicación, precios y disponibilidad de espacios de estacionamiento.</td></tr>
+<tr><td valign="top">Estrategias de Marketing</td><td valign="top">Utilizan las redes sociales y publicidad online para promocionar su solución de gestión de estacionamiento eficiente, destacando la comodidad y reducción de congestión que ofrece.</td><td valign="top">Utilizan publicidad en línea y redes sociales para resaltar la conveniencia de reservar espacios de estacionamiento con antelación.</td><td valign="top">Utilizan plataformas en línea y asociaciones con empresas para atraer a propietarios de espacios no utilizados.</td><td valign="top">Se enfoca en marketing global para conductores que buscan lugares de estacionamiento. Utilizan estrategias de optimización de motores de búsqueda (SEO) y asociaciones con empresas automotrices para destacar su plataforma.</td></tr>
+<tr><td rowspan="3" valign="top">Perfil de Producto</td><td valign="top">Productos & Servicios</td><td valign="top">Plataforma innovadora de gestión de estacionamiento que optimiza y utiliza eficientemente espacios no utilizados en áreas urbanas. Solución integral para aliviar la congestión y mejorar la disponibilidad de estacionamiento a largo plazo.</td><td valign="top"><p>Plataforma de reserva de estacionamiento en línea con opciones en garajes comerciales y calles urbanas.</p><p>Búsqueda y comparación por ubicación, precio y comodidades.</p></td><td valign="top"><p>Plataforma de alquiler de espacios de estacionamiento no utilizados.</p><p>Facilita la búsqueda de estacionamiento a corto plazo.</p><p>Opciones para propietarios individuales y empresas.</p></td><td valign="top"><p>Directorio global de lugares de estacionamiento.</p><p>Proporciona información detallada sobre ubicación, disponibilidad, precios y comodidades para ayudar a los conductores a planificar sus viajes.</p></td></tr>
+<tr><td valign="top">Precios & Costos</td><td valign="top">Los precios pueden variar según el modelo de negocio, como planes de suscripción para propietarios de espacios o tarifas por uso para conductores.</td><td valign="top">Los precios varían según la ubicación y el tipo de estacionamiento. Los costos incluyen tarifas de servicio y comisiones para la plataforma.</td><td valign="top">Los precios son determinados por los propietarios y varían según la ubicación y la demanda. JustPark puede aplicar tarifas de servicio y comisiones por transacción.</td><td valign="top"><p>La plataforma puede ser gratuita para los usuarios, pero podrían ofrecer versiones premium con características adicionales.</p><p>Ingresos potenciales de asociaciones con empresas automotrices y anuncios.</p></td></tr>
+<tr><td valign="top">Canales de Distribución</td><td valign="top">Plataforma en línea a través de sitio web y aplicación móvil. Colaboración con empresas y propietarios para expandir la red de espacios optimizados.</td><td valign="top">Plataforma en línea a través del sitio web y aplicación móvil. Colaboraciones con empresas locales y eventos para promoción.</td><td valign="top"><p>Plataforma en línea a través del sitio web y aplicación móvil.</p><p>Asociaciones con empresas para integrar servicios de estacionamiento en soluciones más amplias.</p></td><td valign="top">Plataforma en línea a través del sitio web y aplicación móvil. Integración con sistemas de navegación y aplicaciones automotrices.</td></tr>
+<tr><td rowspan="4" valign="top">Análisis SWOT</td><td valign="top">Fortalezas</td><td valign="top"><p>Solución para la escasez de estacionamiento.</p><p>Solución a largo plazo para la congestión.</p><p>Optimización de espacios no utilizados.</p></td><td valign="top"><p>Plataforma en línea accesible y fácil de usar.</p><p>Alto reconocimiento de marca en ciudades.</p></td><td valign="top"><p>Oferta de estacionamiento a corto plazo.</p><p>Amplia gama de opciones de estacionamiento.</p></td><td valign="top"><p>Información detallada y planificación de viajes.</p><p>Colaboraciones con fabricantes de automóviles.</p></td></tr>
+<tr><td valign="top">Debilidades</td><td valign="top"><p>Posible resistencia de propietarios a alquilar sus espacios.</p><p>Necesidad de educar a los usuarios sobre la propuesta de valor.</p></td><td valign="top"><p>Dependencia de la disponibilidad de estacionamientos para la reserva.</p><p>Tarifas de servicio pueden generar resistencia en algunos usuarios.</p></td><td valign="top"><p>Dependencia de la disponibilidad de espacios para alquilar.</p><p>Tarifas de servicio pueden generar resistencia en usuarios.</p></td><td valign="top"><p>Dependencia de la precisión y actualización de datos.</p><p>Tarifas de servicio pueden generar resistencia en usuarios</p></td></tr>
+<tr><td valign="top">Oportunidades</td><td valign="top"><p>Colaboraciones con empresas y/o municipalidades para soluciones urbanas.</p><p>Posibilidad de expansión internacional.</p></td><td valign="top"><p>Colaboración con empresas automotrices.</p><p>Incorporación de características innovadoras.</p></td><td valign="top"><p>Colaboración con empresas para servicios de movilidad.</p><p>Expansión a nuevos mercados urbanos.</p></td><td valign="top"><p>Colaboración con aplicaciones de viajes compartidos.</p><p>Mayor adopción de vehículos autónomos.</p></td></tr>
+<tr><td valign="top">Amenazas</td><td valign="top"><p>Cambios en la normativa de estacionamiento y alquiler.</p><p>Competidores emergentes en el mercado de gestión de estacionamiento.</p></td><td valign="top"><p>Cambios en la normativa de estacionamiento urbano.</p><p>Competidores emergentes en el mercado de reserva de estacionamiento.</p></td><td valign="top"><p>Competidores emergentes en el mercado de alquiler de espacios.</p><p>Cambios en la normativa de estacionamiento urbano.</p></td><td valign="top"><p>Vulnerabilidad a eventos externos que afecten la demanda de estacionamiento.</p><p>Cambios en la regulación del estacionamiento urbano.</p></td></tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores. 
+
+ParkEase debe centrarse en resaltar su propuesta única de optimización de espacios no utilizados. Esta estrategia no solo alivia la congestión urbana a largo plazo, sino que también beneficia tanto a propietarios como a conductores al maximizar la utilización de activos existentes. Una experiencia de usuario impecable es esencial para el éxito, asegurando una plataforma intuitiva y fácil de usar tanto para propietarios como para conductores.
+
+Para diferenciarse de la competencia, debemos priorizar campañas de marketing personalizadas que aborden las necesidades específicas de ambos grupos. Comunicar cómo la plataforma resuelve problemas y ofrece beneficios adaptados a cada segmento ayudará a atraer y retener a propietarios y conductores por igual. La continua innovación en la plataforma y las colaboraciones estratégicas con autoridades urbanas y empresas locales son esenciales para mantenerse a la vanguardia. Desarrollar nuevas características y trabajar en proyectos de eficiencia urbana consolidará la posición de ParkEase en la industria de la gestión de estacionamiento.
+
+En conclusión, nosotros debemos centrarnos en la diferenciación estratégica a través de la optimización de espacios no utilizados para aliviar la congestión urbana. Garantizar una experiencia de usuario de alta calidad y dirigir el marketing de manera personalizada serán clave para atraer a propietarios y conductores. La innovación continua y las colaboraciones estratégicas fortalecerán su posición competitiva en el mercado.
+
+## 2.2. Entrevistas. 
+### 2.2.1. Diseño de entrevistas.
+
+**Usuario 1 - Individuo que busca soluciones convenientes y accesibles para sus necesidades de estacionamiento en entornos urbanos:**
+
+**Introducción y Presentación:**
+
+- Saludo y presentación
+- ¿Cuál es tu nombre?
+- ¿Cuál es tu edad?
+- ¿Cuál es tu ocupación profesional?
+- ¿Con qué frecuencia haces uso de aplicaciones móviles?
+- Explicación del propósito de la entrevista y cómo se utilizará la información recopilada.
+
+**Experiencia Personal:**
+
+- ¿Puedes contarme sobre una vez en la que tuviste dificultades para encontrar estacionamiento en un área urbana?
+- ¿Qué emociones experimentaste durante esa situación? ¿Te resultó frustrante?
+- ¿Con qué frecuencia enfrentas problemas para encontrar estacionamiento cerca de tus destinos habituales?
+
+**Uso de Tecnología:**
+
+- ¿Utilizas aplicaciones móviles o servicios en línea para buscar estacionamiento?
+- ¿Qué características valoras más en una aplicación de búsqueda de estacionamiento?
+- ¿Has tenido experiencias positivas o negativas con aplicaciones similares en el pasado?
+
+**Expectativas y Necesidades:**
+
+- Si pudieras diseñar la aplicación de tus sueños para encontrar estacionamiento, ¿qué características tendría?
+- ¿Qué tan importante es para ti la proximidad al destino al buscar estacionamiento?
+- ¿Qué medidas de seguridad consideras esenciales para sentirte cómodo al dejar tu auto en un estacionamiento?
+
+**Preferencias de Pago y Suscripción:**
+
+- ¿Estarías dispuesto/a a pagar por una aplicación que facilite la búsqueda y reserva de estacionamiento?
+- ¿Qué tipo de planes de suscripción te parecerían atractivos?
+- ¿Valorarías algún tipo de programa de recompensas por el uso continuo de la aplicación?
+
+**Cierre y Agradecimiento:**
+
+Agradecimiento al usuario por su participación.
+
+**Usuario 2 - Propietarios de espacios de estacionamiento que buscan una forma efectiva de sacar provecho de sus activos no utilizados:**
+
+**Introducción y Presentación:**
+
+- Saludo y presentación
+- ¿Cuál es tu nombre?
+- ¿Cuál es tu edad?
+- ¿Cuál es tu ocupación profesional?
+- ¿Con qué frecuencia haces uso de aplicaciones móviles?
+- Explicación del propósito de la entrevista y cómo se utilizará la información recopilada.
+
+**Experiencia Actual:**
+
+- ¿Tienes algún espacio de estacionamiento que no utilizas con regularidad?
+- ¿Has considerado alguna vez alquilar tu espacio de estacionamiento a otras personas?
+- ¿Qué factores influyen en tu decisión de alquilar o no alquilar tu espacio?
+
+**Percepción sobre Alquiler:**
+
+- ¿Qué preocupaciones tendrías al alquilar tu espacio de estacionamiento a desconocidos?
+- ¿Qué medidas de seguridad considerarías esenciales para proteger tanto el espacio como el vehículo del arrendatario?
+- ¿Tienes alguna experiencia previa con el alquiler de estacionamientos?
+
+**Beneficios Deseados:**
+
+- ¿Qué tipo de beneficios esperas obtener al alquilar tu espacio de estacionamiento?
+- ¿Te interesaría ofrecer descuentos o promociones especiales para atraer a más conductores a alquilar tu espacio?
+- ¿Cómo crees que el alquiler de tu espacio podría ayudar a aliviar la congestión del tráfico en tu área?
+
+**Uso de la Plataforma:**
+
+- Si te imaginas utilizando nuestra aplicación ParkEase, ¿qué herramientas te gustaría tener para administrar tu espacio de estacionamiento?
+- ¿Qué tipo de control y flexibilidad esperas tener sobre la disponibilidad y los precios de tu espacio?
+- ¿Qué métodos de pago te resultarían más convenientes y seguros?
+
+**Cierre y Agradecimiento:**
+
+Agradecimiento al usuario por su participación.
+
+### 2.2.2. Registro de entrevistas.
+
+**Arrendadores**
+
+**Registro de entrevista n.º1:**
+
+**Fecha:** 21/08/23
+
+**Nombre:** Piero Marquez
+
+**Edad:** 22 años
+
+**Duración de la entrevista:** 6:52 minutos
+
+**Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ETBUjAOZMIdOprFQOfjbZKQBIiL-GoYtqCFcGzBsSPSUmA>**
+
+**Resumen de entrevista:**
+
+Es estudiante universitario. Él comenta que debido a la adquisición de un nuevo vehículo más grande por parte de su familia, la cochera que tienen quedará en desuso. Por ello, ha estado pensando en alquilar la cochera que actualmente posee, ya que en la zona donde vive muchas personas buscan estacionamiento. Nos comenta que el principal problema que vería al alquilar sería la seguridad, porque en su edificio el sistema de seguridad es anticuado, y ve como solución mejorar la entrada para evitar hurtos. Por último, señala que le gustaría una aplicación de estacionamiento en la que pueda obtener un ingreso extra con diferentes formas de recibir el pago, perfiles de usuario que él pueda ver y un administrador de solicitudes de personas interesadas.
+
+**Registro de entrevista n.º2:**
+
+**Fecha:** 21/08/23
+
+**Nombre:** Maryori
+
+**Edad:** 20 años
+
+**Duración de la entrevista:** 6:31 minutos
+
+**Link: <https://upcedupe-my.sharepoint.com/personal/u202117993_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202117993%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20Orlando%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1>**
+
+**Resumen de entrevista:**
+
+Es estudiante universitaria y utiliza frecuentemente aplicaciones móviles. Comenta que tiene un estacionamiento en su casa que no utiliza y que, por el momento, no se ha motivado a alquilarlo. El principal factor por el cual no ha alquilado su estacionamiento es el temor a algún accidente o descuido que podría ocurrir por parte de la persona que tenga acceso a la cochera. También menciona que una medida de seguridad importante sería colocar cámaras de seguridad en los lugares donde se pueden alquilar. Su principal objetivo sería obtener un ingreso extra y estaría dispuesta a ofrecer promociones a los usuarios frecuentes. Le gustaría que la aplicación de estacionamiento tuviera la característica de mostrar el perfil y la identidad de la persona a la cual le alquile su estacionamiento, para tener una mayor confianza en ella, así como diferentes formas de pago.
+
+**Registro de entrevista n.º3:**
+
+**Fecha:** 21/08/23
+
+**Nombre:** Mayra Padilla
+
+**Edad:** 23 años
+
+**Duración de la entrevista:** 5:53 minutos
+
+**Link: <https://upcedupe-my.sharepoint.com/personal/u202117993_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202117993%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1383565187%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1>**
+
+**Resumen de entrevista:**
+
+Mayra Padilla tiene 23 años y trabaja como economista. Utiliza aplicaciones móviles frecuentemente a lo largo del día. Comenta que reside con sus padres y poseen un total de 5 estacionamientos que están libres. Ella ya había considerado la idea de alquilar los espacios que tiene su familia con el objetivo de obtener ingresos pasivos, pero factores como la confiabilidad del arrendatario, su capacidad para cumplir con los pagos y la seguridad de sus padres no la han animado a hacerlo. Como medidas de seguridad, considera necesarias cámaras de vigilancia y vigilancia para controlar la entrada y salida de vehículos. Además, ella añade que estaría dispuesta a ofrecer descuentos o promociones para atraer usuarios en un inicio. En cuanto a las características de la aplicación, le gustaría que ofreciera protección de la privacidad e información de las personas interesadas en sus estacionamientos, así como cualquier método digital de pago.
+
+**Arrendatarios**
+
+**Registro de entrevista n.º1:**
+
+**Fecha:** 23/08/23
+
+**Nombre:** Kevin Tumbalobos Cubas
+
+**Edad:** 22 años
+
+**Duración de la entrevista:** 6:52 minutos
+
+**Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EdH96A_5XlZBsTJuQQUKJSwBF2mAhjkuNH21uVoEP9EQEQ?e=J2OLUb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In0sInBsYXliYWNrT3B0aW9ucyI6eyJzdGFydFRpbWVJblNlY29uZHMiOjEuMDR9fQ%3D%3D>**
+
+**Resumen de entrevista:**
+
+Kevin Tumbalobos Cubas tiene 22 años y vive en el distrito de San Miguel. Es especialista en infraestructura de redes. Él comenta que utiliza con regularidad muchas aplicaciones móviles en su día a día y con frecuencia ha tenido problemas para encontrar estacionamiento, especialmente en zonas alrededor de parques. Siente mucha frustración y estaría dispuesto a utilizar una aplicación de búsqueda de estacionamiento. Le gustaría que la aplicación tenga la característica de mostrar la cantidad de estacionamientos disponibles para alquilar y las zonas en las que están disponibles. Por último, comenta que preferiría que los lugares disponibles estén cerca de serenazgos o comisarías.
+
+**Registro de entrevista n.º2:**
+
+**Fecha:** 23/08/23
+
+**Nombre:** Leonardo
+
+**Edad:** 21 años
+
+**Duración de la entrevista:** 6:37 minutos
+
+**Link: <https://upcedupe-my.sharepoint.com/personal/u202124162_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202124162%5Fupc%5Fedu%5Fpe%2FDocuments%2FAplicaciones%20Web%2FEntrevista%20Usuario%201%2Emkv&ga=1>**
+
+**Resumen de entrevista:**
+
+Leonardo tiene 21 años y es estudiante universitario. Él utiliza comúnmente aplicaciones sociales como WhatsApp. Comenta que ha tenido problemas para encontrar espacios en áreas urbanas debido a que es un conductor primerizo. Estas experiencias le han causado frustración e incomodidad. Él quisiera como características principales de las aplicaciones de estacionamiento que se actualicen con frecuencia y que sean de fácil y rápido uso para evitar accidentes de tránsito. También añade que, como parte de la seguridad, le gustaría que los estacionamientos estén ubicados en lugares frecuentados y que tengan opiniones previas de su uso. Por último, estaría dispuesto a pagar una suscripción si la aplicación cumple con sus expectativas.
+
+**Registro de entrevista n.º3:**
+
+**Fecha:** 23/08/23
+
+**Nombre:** Jany Aventadaño
+
+**Edad:** 22 años
+
+**Duración de la entrevista:** 7:48 minutos
+
+**Link: <https://upcedupe-my.sharepoint.com/personal/u20211c403_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c403%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20usuario%201%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1>**
+
+**Resumen de entrevista:**
+
+Jany Avendaño tiene 22 años y es practicante de la carrera de ingeniería de sistemas. Ella utiliza frecuentemente aplicaciones. Comenta que ha tenido dificultades con la búsqueda de estacionamientos en zonas urbanas debido a que es nueva en la ciudad. Siente frustración por estar buscando zonas de aparcamiento debido a que considera la ciudad caótica. Como características principales que ella busca en una aplicación de este tipo están la facilidad de uso, que sea intuitiva, visibilidad e información del estacionamiento, opiniones previas y que esté actualizada. Ella estaría dispuesta a pagar una suscripción o planes en una aplicación para conseguir estacionamiento y valoraría recompensas por su uso continuo.
+
+### 2.2.3. Análisis de entrevistas.
+
+**Arrendadores:**
+
+Los arrendatarios también comparten ciertas opiniones en común. En general, muestran interés en aprovechar el espacio de estacionamiento no utilizado para obtener ingresos adicionales. Sin embargo, todos expresan preocupaciones sobre la seguridad de sus propiedades y la confiabilidad de los arrendatarios. Solicitan medidas de seguridad adicionales, como cámaras de vigilancia y ubicaciones cercanas a servicios de seguridad. Además, desean una plataforma que facilite la administración de los alquileres, con perfiles de usuario visibles y opciones de pago variadas. Todos valoran la privacidad de la información de los usuarios y consideran ofrecer promociones iniciales para atraer a conductores interesados. Estas opiniones en común resaltan la importancia de la seguridad, la facilidad de uso y la flexibilidad en la plataforma de alquiler de estacionamientos.
+
+**Arrendatarios:**
+
+Los tres arrendatarios expresan la frustración y desafíos que enfrentan al encontrar estacionamiento en zonas urbanas, motivados por distintos factores como la falta de experiencia en conducir, la congestión vehicular y la novedad en la ciudad. Todos valoran la idea de una aplicación de búsqueda de estacionamiento que sea intuitiva, actualizada y brinde información detallada sobre los espacios disponibles. Además, subrayan la importancia de la seguridad, mencionando preferencias por ubicaciones cercanas a serenazgos o comisarías, así como la posibilidad de acceder a opiniones y reseñas previas para aumentar su confianza en los estacionamientos ofrecidos. En términos de modelo de pago, están dispuestos a considerar opciones de suscripción y valorarían recompensas por un uso continuo de la aplicación.
+
+## 2.3. Needfinding. 
+### 2.3.1. User Personas.
+
+**Segmento host**
+
+![userpersona-host](Image-chapter2/Laura%20Gutierrez.png)
+
+**Segmento guest**
+
+![userpersona-guest](Image-chapter2/Luis%20Morales.png)
+
+
+### 2.3.2. User Task Matrix. 
+
+|**Tareas / User Persona**|**Laura Gutierrez**|
+| :-: | :-: |
+|Generar ingresos pasivos|Frecuencia: Alta Importancia: Alta|
+|Aprovechar estacionamientos vacíos|Frecuencia: Alta Importancia: Alta|
+|Garantizar seguridad de estacionamientos y propiedades|Frecuencia: Alta Importancia: Alta|
+|Manejar aspectos administrativos y legales del alquiler|Frecuencia: Media Importancia: Media|
+|Contribuir al presupuesto familiar|Frecuencia: Alta Importancia: Alta|
+|Aliviar problema de estacionamiento en su área|Frecuencia: Alta Importancia: Alta|
+
+**Tareas con Mayor Frecuencia e Importancia:**
+
+
+
+
+- **Generar ingresos pasivos**: Esta es su principal motivación para aprovechar los estacionamientos no utilizados y contribuir al presupuesto familiar.
+
+
+
+
+- **Aprovechar estacionamientos vacíos**: Dado que tiene dos estacionamientos que rara vez usa, aprovecharlos para beneficio económico es una prioridad.
+
+
+
+
+- **Garantizar la seguridad de estacionamientos y propiedades**: La seguridad es una preocupación constante, lo que hace que esta tarea sea de alta importancia.
+
+
+|**Tareas / User Persona**|**Luis Morales**|
+| :-: | :-: |
+|Generar ingresos pasivos|Frecuencia: Baja Importancia: Media|
+|Aprovechar estacionamientos vacíos|Frecuencia: Baja Importancia: Media|
+|Encontrar lugares de estacionamiento cercanos y asequibles|Frecuencia: Alta Importancia: Alta|
+|Evitar perder tiempo buscando estacionamiento|Frecuencia: Alta Importancia: Alta|
+|Contribuir al presupuesto familiar|Frecuencia: Media Importancia: Alta|
+|Aliviar problema de estacionamiento en su área|Frecuencia: Alta Importancia: Alta|
+
+**Tareas con Mayor Frecuencia e Importancia:**
+
+
+
+
+- **Encontrar lugares de estacionamiento cercanos y asequibles**: Dado que es nuevo en un entorno congestionado y no está acostumbrado al tráfico, encontrar lugares de estacionamiento es una necesidad constante y crucial.
+
+
+
+
+- **Evitar perder tiempo buscando estacionamiento**: Luis quiere evitar llegar tarde a sus compromisos importantes debido a la búsqueda de estacionamiento, por lo que esta tarea es esencial.
+
+
+
+
+- **Aliviar el problema de estacionamiento en su área**: Luis también se preocupa por resolver el problema de estacionamiento en su área, ya que afecta directamente su calidad de vida.
+
+**Principales diferencias:**
+
+Las principales diferencias entre los dos User Personas son sus circunstancias y necesidades específicas:
+
+
+
+
+- **Laura** se centra en generar ingresos pasivos a través del alquiler de sus espacios de estacionamiento y en la seguridad de sus propiedades.
+- **Luis**, por otro lado, está más enfocado en encontrar soluciones para los problemas de estacionamiento que enfrenta en su entorno urbano y en evitar la pérdida de tiempo.
+
+**Principales coincidencias:**
+
+A pesar de las diferencias, hay algunas coincidencias entre Laura y Luis:
+
+
+
+
+- Ambos están interesados en **contribuir al presupuesto familiar**. Para Laura, esto implica generar ingresos adicionales, mientras que para Luis, encontrar estacionamientos asequibles también puede impactar positivamente su presupuesto al ahorrar en costos de estacionamiento.
+- **Aliviar el problema de estacionamiento** es una preocupación común para ambos. Laura busca resolverlo alquilando sus espacios vacíos, mientras que Luis busca opciones de estacionamiento asequibles y cercanas.
+
+
+### 2.3.3. User Journey Mapping.
+
+En el contexto de la creación y lanzamiento de la aplicación ParkEase, hemos explorado el journey completo de dos usuarios representativos: Laura Gutierrez y Luis Morales. Ambos enfrentan desafíos relacionados con el estacionamiento en entornos urbanos, pero sus necesidades y experiencias son únicas. Este end-to-end journey ilustra cómo ParkEase aborda las necesidades y preocupaciones de estos usuarios desde el inicio de su problema.
+
+![Texto alternativo](Image-chapter2/UserJourneyMap%20-%20Laura%20Gutierrez.png)
+![Texto alternativo](Image-chapter2/UserJourneyMap%20-%20Luis%20Morales.png)
+
+[Enlace de los Journey Map](https://miro.com/app/board/uXjVMotJnis=/?share_link_id=857418194303)
+
+
+### 2.3.4. Empathy Mapping.
+
+Este Empathy Mapping nos ayuda a comprender las necesidades, frustraciones y expectativas de Luis Morales y Laura Gutierrez en relación con el estacionamiento en Lima. Esto nos permitirá diseñar soluciones que aborden sus preocupaciones y mejoren su experiencia de estacionamiento, convirtiendo a ParkEase en una alternativa atractiva.
+
+![Texto alternativo](Image-chapter2/EmpathyMap%20-%20LauraGutierrez.png)
+![Texto alternativo](Image-chapter2/EmpathyMap%20-%20LuisMorales.png)
+[Enlace de los Empathy Map](https://miro.com/app/board/uXjVMozsFEk=/?share_link_id=878207066799)
+
+### 2.3.5. As-is Scenario Mapping. 
+
+El proceso realizado para el As-Is Scenario Mapping implicó mapear la experiencia actual de dos User Personas, Laura Gutierrez y Luis Morales, en relación con sus desafíos de estacionamiento. Esto se logró a través de la identificación de diversas fases, acciones, pensamientos y sentimientos que experimentan durante su búsqueda de estacionamiento
+
+![Texto alternativo](Image-chapter2/As-Is-ScenarioMapping%20-%20LauraGutierrez.png)
+![Texto alternativo](Image-chapter2/As-Is-ScenarioMapping%20-%20LuisMorales.png)
+[Enlace de los As-is-Scenario Map](https://miro.com/app/board/uXjVMozsFEk=/?share_link_id=878207066799)
+
+# Capítulo III: Requirements Specification 
+## 3.1. To-Be Scenario Mapping.
+
+## 3.2. User Stories. 
+## 3.3. Impact Mapping. 
+## 3.4. Product Backlog. 
