@@ -19,7 +19,9 @@
 **Integrantes:**
 - Orlando Arturo Roca Huapaya - u201919742
 - Paolo Sebastian Padilla Advincula- u202117993
-- [Nombre del Integrante 3]
+- Antonella Frida Gonzales Gomez - U20211C403
+- Gustavo Jandroel Aguirre Rodríguez - U202124162
+- Piero Mendoza Pimentel - U201923446
 
 **Ciclo:** 2023-02
 
