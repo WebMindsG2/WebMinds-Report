@@ -47,6 +47,10 @@
 |d89f9554e799e33861eed85e03da22200a9b17f0| Orlando| 19-08-2023   | chore: Initial repository setup - Setting up the project structure and initializing the repository.|
 |10d3877d4b977143574d07d718947be9246b8f2c| Orlando     | 19-08-2023   | chore: Add initial files for team to start working - Included the necessary files for the team to begin working on the report|
 |ad5ab6bac117d6aa2bc682f56a41cf35904c9e5e| Orlando     | 19-08-2023   |chore: Add initial files for team to start working - Included the necessary files for the team in the chapter 2 to begin working on the assigned task|
+|d0fadf606272fd3a9a188c153843642969a3de9f| Antonella    | 01-09-2023   |chore: add initial files of chapter 1: the themes of chapter 1 were developed|
+|a0f586e2d0bfee386ae0c3ca3b6e076ff10579ac| Antonella    | 06-09-2023   |chore: correction of chapter 1: the modifications of chapter 1 were made|
+
+
 
 ### Actividades:
 - fecha: 19-08-2023
