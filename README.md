@@ -32,7 +32,8 @@
 |---------|-------------|---------|---------------------------------------------------------|
 | TB1     | 20-08-2023  | Orlando  | Descripción de la startup, segmento objetivo, competidores |
 | TB1     | 30-08-2023  | Orlando  | Lean UX Canvas|
-
+| TB1     | 01-09-2023  | Antonella  |Lean-UX-Problem-Statements|
+| TB1     | 06-09-2023  |Antonella | chapter 5|
 
 
 
@@ -48,6 +49,8 @@
 |e697dc70ad35bd254c8ac004750057e65f851d83| Orlando| 20-08-2023   | doc: Advance startup description and target segment in chapter 1 - Added more details to the startup description and expanded on the target segment information in the first chapter.|
 |c2e95ee1bdb3bceda88301a0e164233a0e81fb4f| Orlando| 20-08-2023   |doc: Progress competitors section in chapter 2 - Expanded and updated the competitors section in the second chapter.|
 |45f3f8cb8df5c5461a45ae0ab23d413fb3594dbe| Orlando| 30-08-2023   |doc: Canvas and Hypothesis Statement added|
+|d0fadf606272fd3a9a188c153843642969a3de9f| Antonella    | 01-09-2023   |chore: add initial files of chapter 1: the themes of chapter 1 were developed|
+|a0f586e2d0bfee386ae0c3ca3b6e076ff10579ac| Antonella    | 06-09-2023   |chore: correction of chapter 1: the modifications of chapter 1 were made|
 
 
 # Contenido
