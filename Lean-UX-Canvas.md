@@ -1,1 +1,1 @@
-![Texto alternativo](Image/Lean%20UX%20Canvas%20Template.jpg)
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154185832425586748/Lean_UX_Canvas_Template.jpg)
