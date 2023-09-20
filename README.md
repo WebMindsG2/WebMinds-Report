@@ -30,7 +30,10 @@
 
 | Versión | Fecha       | Autor   | Descripción de modificación                              |
 |---------|-------------|---------|---------------------------------------------------------|
-| 1.0     | 19-08-2023  | Orlando  | Se crearon los archivos md del capitulo 1 y 2 en el repositorio|
+| TB1     | 20-08-2023  | Orlando  | Descripción de la startup, segmento objetivo, competidores |
+| TB1     | 30-08-2023  | Orlando  | Lean UX Canvas|
+
+
 
 
 
@@ -41,17 +44,10 @@
 
 
 | Commit ID | Autor       | Fecha        | Descripción del Commit                          |
-|-----------|-------------|--------------|-----------------------------------------------|
-|d89f9554e799e33861eed85e03da22200a9b17f0| Orlando| 19-08-2023   | chore: Initial repository setup - Setting up the project structure and initializing the repository.|
-|10d3877d4b977143574d07d718947be9246b8f2c| Orlando     | 19-08-2023   | chore: Add initial files for team to start working - Included the necessary files for the team to begin working on the report|
-|ad5ab6bac117d6aa2bc682f56a41cf35904c9e5e| Orlando     | 19-08-2023   |chore: Add initial files for team to start working - Included the necessary files for the team in the chapter 2 to begin working on the assigned task|
-
-### Actividades:
-- fecha: 19-08-2023
-
-![Asignación de colores](Imagenes/Leyenda.png) ![Reparticion de las partes del capitulo 1 y 2](Imagenes/Reparticion%20de%20actividades%20del%20informe.png) ![](Imagenes/Anuncio%20del%20capitulo%201%20y%202.png)
-
-Durante una reunion de google meet a cada integrante se le asignó un color, para que podamos realizar la reparticion de las partes del informe. Además, se crearon archivos .md con la finalidad de que todos los integrantes del equipo puedan ir desarrollando las partes que les tocó.
+|-----------|-------------|--------------|-------------------------------------------------|
+|e697dc70ad35bd254c8ac004750057e65f851d83| Orlando| 20-08-2023   | doc: Advance startup description and target segment in chapter 1 - Added more details to the startup description and expanded on the target segment information in the first chapter.|
+|c2e95ee1bdb3bceda88301a0e164233a0e81fb4f| Orlando| 20-08-2023   |doc: Progress competitors section in chapter 2 - Expanded and updated the competitors section in the second chapter.|
+|45f3f8cb8df5c5461a45ae0ab23d413fb3594dbe| Orlando| 30-08-2023   |doc: Canvas and Hypothesis Statement added|
 
 
 # Contenido
