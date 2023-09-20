@@ -1,9 +1,0 @@
-**2.2.3. Análisis de entrevistas.**
-
-**Arrendadores:**
-
-Los arrendatarios también comparten ciertas opiniones en común. En general, muestran interés en aprovechar el espacio de estacionamiento no utilizado para obtener ingresos adicionales. Sin embargo, todos expresan preocupaciones sobre la seguridad de sus propiedades y la confiabilidad de los arrendatarios. Solicitan medidas de seguridad adicionales, como cámaras de vigilancia y ubicaciones cercanas a servicios de seguridad. Además, desean una plataforma que facilite la administración de los alquileres, con perfiles de usuario visibles y opciones de pago variadas. Todos valoran la privacidad de la información de los usuarios y consideran ofrecer promociones iniciales para atraer a conductores interesados. Estas opiniones en común resaltan la importancia de la seguridad, la facilidad de uso y la flexibilidad en la plataforma de alquiler de estacionamientos.
-
-**Arrendatarios:**
-
-Los tres arrendatarios expresan la frustración y desafíos que enfrentan al encontrar estacionamiento en zonas urbanas, motivados por distintos factores como la falta de experiencia en conducir, la congestión vehicular y la novedad en la ciudad. Todos valoran la idea de una aplicación de búsqueda de estacionamiento que sea intuitiva, actualizada y brinde información detallada sobre los espacios disponibles. Además, subrayan la importancia de la seguridad, mencionando preferencias por ubicaciones cercanas a serenazgos o comisarías, así como la posibilidad de acceder a opiniones y reseñas previas para aumentar su confianza en los estacionamientos ofrecidos. En términos de modelo de pago, están dispuestos a considerar opciones de suscripción y valorarían recompensas por un uso continuo de la aplicación.
