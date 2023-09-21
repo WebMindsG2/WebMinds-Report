@@ -47,7 +47,11 @@
 |d89f9554e799e33861eed85e03da22200a9b17f0| Orlando| 19-08-2023   | chore: Initial repository setup - Setting up the project structure and initializing the repository.|
 |10d3877d4b977143574d07d718947be9246b8f2c| Orlando     | 19-08-2023   | chore: Add initial files for team to start working - Included the necessary files for the team to begin working on the report|
 |ad5ab6bac117d6aa2bc682f56a41cf35904c9e5e| Orlando     | 19-08-2023   |chore: Add initial files for team to start working - Included the necessary files for the team in the chapter 2 to begin working on the assigned task|
+|031d1edd9db8f5a53c70c37f687ce52a72f3a947| Paolo     | 20-08-2023   |Update README.md|
+|4cfbf5fcc60af7b93974f1202e2f02f27c9d74a1| Paolo     | 24-08-2023   |doc: User Task Matrix added|
 |d0fadf606272fd3a9a188c153843642969a3de9f| Antonella    | 01-09-2023   |chore: add initial files of chapter 1: the themes of chapter 1 were developed|
+|8fdec1888f71856680381c255d53b6473baa7877| Paolo     | 06-09-2023   |doc: Needfinding completed|
+|8e1b6c893002c1754ee988abd411924b19187b08| Paolo     | 06-09-2023   |doc: Information Architecture added|
 |a0f586e2d0bfee386ae0c3ca3b6e076ff10579ac| Antonella    | 06-09-2023   |chore: correction of chapter 1: the modifications of chapter 1 were made|
 
 
