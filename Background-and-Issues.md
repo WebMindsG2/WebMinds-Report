@@ -1,4 +1,10 @@
-## 1.2.1 Antecedentes y problemática
+
+ ## 1.2.1 Antecedentes y problemática
+ ### Antecedentes:
+En la actualidad, las áreas urbanas experimentan un aumento constante en la congestión del tráfico debido al crecimiento de la población y al incremento de la cantidad de vehículos en circulación. Este problema de tráfico, agravado por la ineficiente búsqueda de espacios de estacionamiento, ha generado una experiencia frustrante para los conductores en todo el mundo. Además, esta situación también representa un desafío para quienes poseen espacios de estacionamiento no utilizados en áreas urbanas, ya que no cuentan con una plataforma efectiva para aprovechar estos activos.
+
+## problemática
+
 ### 1. What (Qué)
 ¿Cuál es el problema?
 
