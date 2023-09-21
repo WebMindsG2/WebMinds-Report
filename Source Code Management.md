@@ -2,17 +2,31 @@
 
 ## 5.1.2. Source Code Management.
 
-Para administrar el proceso de desarrollo del proyecto, aprovecharemos Git, que es una herramienta de control de versiones. Esto nos permitirá rastrear y documentar todos los cambios y mejoras en nuestro proyecto. Utilizaremos una plataforma llamada GitHub, donde podremos visualizar de manera clara todas las actualizaciones y ajustes realizados por cada miembro del equipo. Los branches (ramas) que utilizaremos en el repositorio serán los siguientes:
+El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github. 
 
-### Principal (Main): 
-En esta rama almacenaremos las versiones definitivas y estables del proyecto. Esto nos ayudará a mantener una organización adecuada y garantizar que las versiones oficiales estén disponibles.
-### Desarrollo (Develop): 
-Esta rama será un lugar donde se combinarán los cambios. Puedes pensar en ella como una "segunda versión principal", pero su propósito es probar y verificar las modificaciones antes de incorporarlas a la rama principal (Main).
+Organization: https://github.com/WebMindsGroup 
 
-| Alumno                               | Correo                  | Usuario de GitHub |
-|--------------------------------------|-------------------------|-------------------|
-| Gustavo Jandroel Aguirre Rodríguez   | U202124162@upc.edu.pe   | Gustavo           | [Gustavo en GitHub](https://github.com/Gustavo)      |
-| Antonella Frida Gonzales Gomez       | U20211C403@upc.edu.pe    | Anthonnela        | [Anthonnela en GitHub](https://github.com/Anthonnela) |
-| Paolo Sebastián Padilla Advincula    | U202117993@upc.edu.pe    | Paolo             | [Paolo en GitHub](https://github.com/Paolo)           |
-| Orlando Arturo Roca Huapaya          | U201919742@upc.edu.pe    | Orlando           | [Orlando en GitHub](https://github.com/Orlando)       |
-| Piero Mendoza Pimentel               | U201923446@upc.edu.pe    | Piero             | [Piero en GitHub](https://github.com/Piero)         |
+Landing Page Repository: https://github.com/WebMindsGroup/WebMinds-LandingPage 
+
+Asimismo, para llevar a cabo un mejor control de cómo crear ramas y realizar cambios en el código fuente, se procedió a utilizar GitFlow.
+Ramificaciones principales: Se establecieron dos ramas principales en el control de versiones:
+
+- master: Esta rama contiene las versiones oficiales del proyecto que están listas para ir a producción.
+-	develop: Esta rama es donde se integran todas las características nuevas y cambios antes de ser liberados. Es una especie de área de pruebas.
+### Ramas auxiliares:
+-	Ramas de características (feature): Cada nueva característica o funcionalidad que se está desarrollando se crea en su propia rama llamada "feature". Por ejemplo, si se está trabajando en la función de inicio de sesión, se crearía una rama llamada "feature/login". Una vez que la característica está completa y probada, se une a la rama develop.
+-	Rama de lanzamiento (release): Antes de lanzar una nueva versión, se crea una rama de lanzamiento. En esta rama se pueden hacer correcciones finales y preparativos para la versión. Cuando todo esté listo, esta rama se fusiona con master para liberar una nueva versión.
+-	Ramas de corrección urgente (hotfix): Si surge un error crítico en la versión actual en producción, se crea una rama de corrección urgente. Esto permite solucionar el error de inmediato sin tener que esperar a la próxima versión planificada.
+-	Convenciones de commits: Los mensajes de commit siguen un formato específico llamado "Conventional Commits" en su versión 1.0.0 https://www.conventionalcommits.org/en/v1.0.0/  . Esto facilita la lectura y el seguimiento de los cambios realizados en el código.  Por ello seguimos el siguiente formato:
+<type>[optional scope]:<description>
+Donde: 
+
+-	type: Describe el tipo de cambio que se realizó. Puede ser algo como una nueva característica (feat), una corrección (fix), una documentación (docs), etc.
+-	scope: Indica el alcance o área del proyecto que se vio afectada por este cambio.
+-	description: Es un resumen breve de los cambios realizados en el código.
+### Convenciones de versionamiento:
+Para nombrar las versiones del software, se utiliza el formato de "Semantic Versioning 2.0.0". Esto significa que las versiones se componen de tres números, por ejemplo, X.Y.Z:
+-	X (Mayor): Este número representa una versión mayor. Se incrementa cuando se realizan cambios que no son compatibles con las versiones anteriores. Comienza desde 0 para el desarrollo inicial y se cambia a 1 cuando la versión está lista para ser utilizada por el público. Por convención, los números Y y Z se reinician a 0 cada vez que X aumenta.
+-	Y (Menor): Este número representa una versión menor. Aquí se incluyen cambios que son compatibles con las versiones anteriores. Los commits realizados desde las ramas de lanzamiento se agregan aquí cada vez que se agregan nuevas características. Por convención, el número Z se reinicia a 0 cada vez que Y aumenta.
+-	Z (Parche): Este número representa parches y correcciones de errores menores. Aquí se incluyen los commits realizados desde las ramas de corrección urgente que se fusionan en la rama "master" para corregir errores críticos.
+
