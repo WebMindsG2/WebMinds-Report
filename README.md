@@ -1079,78 +1079,107 @@ Para el diseño de la UI de nuestro Landing Page, hemos traducido nuestras decis
 User goal: Preferencia y gestión de cuenta de los usuarios.
 
 - Crear cuenta
+![](Images-chapter4/WebApplicationWireframe1.png)
+
 - Inicio de sesión
+![](Images-chapter4/WebApplicationWireframe2.png)
+
 - Recuperación de contraseña
+![](Images-chapter4/WebApplicationWireframe3.png)
+
 - Métodos de pago
+![](Images-chapter4/WebApplicationWireframe4.png)
+
 - Historial de pagos
+![](Images-chapter4/WebApplicationWireframe5.png)
 
 User goal: Funcionalidades de búsqueda de los usuarios.
 
 - Búsqueda de un espacio de estacionamientos y filtrado de búsqueda.
+![](Images-chapter4/WebApplicationWireframe6.png)
+
 - Búsqueda de un espacio en la lista de favoritos.
+![](Images-chapter4/WebApplicationWireframe7.png)
 
 
 User goal: Mejora de soporte al cliente y experiencia de servicio
 
 - Acceso a las preguntas frecuentes y contacto con servicio técnico.
+![](Images-chapter4/WebApplicationWireframe8.png)
 
 
 User goal: Funcionalidad de pagos
 
 - Visualización y confirmación de pago.
+![](Images-chapter4/WebApplicationWireframe9.png)
+
 - Compra de suscripciones.
+![](Images-chapter4/WebApplicationWireframe10.png)
 
 User goal: Preferencia y gestión de cuenta
 
 - Editar información del perfil del usuario y actualizar métodos de pago.
+![](Images-chapter4/WebApplicationWireframe11.png)
+
 - Creación de listado de espacios de estacionamientos.
+![](Images-chapter4/WebApplicationWireframe12.png)
+
 - Visualización, gestión y configuración de espacios de estacionamiento.
+![](Images-chapter4/WebApplicationWireframe13.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 **User goal:Usuario se registra, recupera la contraseña o inicia sesión en la aplicación web.**
+![](Images-chapter4/WebApplicationWireflowDiagram1.png)
 
 **Descripción:**
 
 Al estar en la pestaña de bienvenida, el usuario tiene dos opciones: registrarse de manera gratuita rellenando el formulario con sus datos personales e iniciar sesión rellenando el formulario con su correo y contraseña. Además, en la pestaña iniciar sesión puede darle a la opción de recuperar contraseña para recibir un correo con las instrucciones de recuperación.
 
 **User goal: Seleccionar las preguntas frecuentes y soporte técnico**
+![](Images-chapter4/WebApplicationWireflowDiagram2.png)
 
 **Descripción:**
 
 Al entrar en la pestaña de inicio, el usuario puede seleccionar la opción de preguntas frecuentes. El usuario puede seleccionar entre las preguntas frecuentes de arrendatarios y arrendadores. Si no consigue resolver sus dudas, en la pestaña de preguntas frecuentes y soporte puede contactar con una persona de servicio técnico.
 
 **User goal:Ver perfil y cambiar método de pago**
+![](Images-chapter4/WebApplicationWireflowDiagram3.png)
 
 **Descripción:**
 
 Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a su perfil. Dentro de la pestaña de perfil de usuario, puede cambiar sus datos como su nombre, apellidos, número de celular, DNI, correo electrónico y además cambiar el método de pago.
 
 **User goal: Visualización y búsqueda de estacionamientos favoritos**
+![](Images-chapter4/WebApplicationWireflowDiagram4.png)
 
 **Descripción:**
 
 Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a mis favoritos. Dentro de la pestaña de espacios de estacionamientos favoritos, el usuario puede visualizar los estacionamientos que ha seleccionado como favoritos y además puede filtrar la búsqueda por nombre de arrendador.
 
 **User goal: Visualización de historial de pagos de estacionamientos**
+![](Images-chapter4/WebApplicationWireflowDiagram5.png)
 
 **Descripción:**
 
 Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a historial de pagos. Dentro de la pestaña historial de pagos, el usuario puede visualizar los pagos que ha hecho con su respectiva fecha, método de pago, importe, nombre de arrendador y estado.
 
 **User goal:Información y pagos de las suscripciones**
+![](Images-chapter4/WebApplicationWireflowDiagram6.png)
 
 **Descripción:**
 
 Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a mi suscripción. Dentro de la pestaña tipos de suscripción, el usuario puede seleccionar el tipo de suscripción que desea tener y proceder al pago de esta.
 
 **User goal: Creación y visualización de espacio de estacionamiento**
+![](Images-chapter4/WebApplicationWireflowDiagram7.png)
 
 **Descripción:**
 
 Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar crear espacio. Dentro de la pestaña creación de espacio de estacionamiento, el usuario puede llenar el formulario con los datos de nombre, teléfono, precio por hora y día, información adicional y dirección. Al crear el nuevo estacionamiento, el usuario puede dirigirse a la pestaña de espacio de estacionamiento para visualizar y gestionar el nuevo espacio.
 
 **User goal: Búsqueda y pago de espacio de estacionamiento**
+![](Images-chapter4/WebApplicationWireflowDiagram8.png)
 
 **Descripción:**
 
@@ -1161,33 +1190,60 @@ Al entrar en la pestaña de inicio, el usuario puede buscar los espacios de esta
 User goal: Preferencia y gestión de cuenta de los usuarios.
 
 - Crear cuenta
+![](Images-chapter4/WebApplicationMockup1.png)
+
 - Inicio de sesión
+![](Images-chapter4/WebApplicationMockup2.png)
+
 - Recuperación de contraseña
+![](Images-chapter4/WebApplicationMockup3.png)
+
 - Métodos de pago
+![](Images-chapter4/WebApplicationMockup4.png)
+
 - Historial de pagos
+![](Images-chapter4/WebApplicationMockup5.png)
 
 User goal: Funcionalidades de búsqueda de los usuarios.
 
 - Búsqueda de un espacio de estacionamientos y filtrado de búsqueda.
+![](Images-chapter4/WebApplicationMockup6.png)
+
 - Búsqueda de un espacio en la lista de favoritos.
+![](Images-chapter4/WebApplicationMockup7.png)
+
 
 User goal: Mejora de soporte al cliente y experiencia de servicio
 
 - Acceso a las preguntas frecuentes y contacto con servicio técnico.
+![](Images-chapter4/WebApplicationMockup8.png)
 
 
 User goal: Funcionalidad de pagos
 
 - Visualización y confirmación de pago.
+![](Images-chapter4/WebApplicationMockup9.png)
+
 - Compra de suscripciones.
+![](Images-chapter4/WebApplicationMockup10.png)
+
 
 User goal: Preferencia y gestión de cuenta
 
 - Editar información del perfil del usuario y actualizar métodos de pago.
+![](Images-chapter4/WebApplicationMockup11.png)
+
 - Creación de listado de espacios de estacionamientos.
+![](Images-chapter4/WebApplicationMockup12.png)
+
 - Visualización, gestión y configuración de espacios de estacionamiento.
+![](Images-chapter4/WebApplicationMockup13.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
+![](Images-chapter4/WebApplicationUserFlowDiagram1.png)
+![](Images-chapter4/WebApplicationUserFlowDiagram2.png)
+![](Images-chapter4/WebApplicationUserFlowDiagram3.png)
+
 ## 4.5. Web Applications Prototyping.
 En esta sección se compartirá el prototipo relacionado a la aplicación web, donde se presentan el alcance de los user goals en los usuarios objetivos. A continuación, se adjunta el link al video completo de Web Applications Prototyping.
 
