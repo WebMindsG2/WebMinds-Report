@@ -19,7 +19,7 @@
 **Integrantes:**
 - Orlando Arturo Roca Huapaya - u201919742
 - Paolo Sebastian Padilla Advincula- u202117993
-- [Nombre del Integrante 3]
+- Piero Mendoza Pimentel - u201923446
 
 **Ciclo:** 2023-02
 
@@ -37,6 +37,10 @@
 | TB1     | 05-09-2023  | Paolo  | Information Architecture|
 | TB1     | 05-09-2023  | Paolo  | Landing Page Wireframe|
 | TB1     | 06-09-2023  |Antonella | chapter 5|
+| TB1     | 25-08-2023  | Piero    | Se añadieron los resumenes y analisis de las entrevistas de los segmentos objetivos |
+| TB1     | 06-09-2023  | Piero    | Se añadieron los wireframes y mock ups del web application y arreglos en el landing page |
+| TB1     | 07-09-2023  | Piero    | Se corrigieron algunos errores en los user persona y añadieron links |
+| TB1     | 20-09-2023  | Piero    | Se corrigieron errores en los nombres de los archivos de analisis de entrevista y se añadieron sus imagenes |
 
 
 
@@ -54,6 +58,15 @@
 |45f3f8cb8df5c5461a45ae0ab23d413fb3594dbe| Orlando| 30-08-2023   |doc: Canvas and Hypothesis Statement added|
 |d0fadf606272fd3a9a188c153843642969a3de9f| Antonella    | 01-09-2023   |chore: add initial files of chapter 1: the themes of chapter 1 were developed|
 |a0f586e2d0bfee386ae0c3ca3b6e076ff10579ac| Antonella    | 06-09-2023   |chore: correction of chapter 1: the modifications of chapter 1 were made|
+|369a92199b966f03cf151a3ba78201aa2027c682| Piero    | 25-08-2023   |doc: Summary and analysis of interviews added|
+|5c8de82dd325b6febd5b62caf01d9c5c92d9ae7a| Piero    | 06-09-2023   |doc: Wireframes, Mock-ups and prototype added|
+|fbebf398cec1cc3612377a7dbf330a2d0e67afe5| Piero    | 06-09-2023   |feat: About us added|
+|e45db51b321758933fb6a26910a583758dc6a095| Piero    | 06-09-2023   |fix: Change content in About Us|
+|20bd9614ca847b192ad81ca13e3761b492935508| Piero    | 06-09-2023   |feat: host information Added|
+|7fd4420c5e81bf8018d4eb76ff1c15735897ac82| Piero    | 06-09-2023   |feat: hero added|
+|11e7f0905d6496e8dd595d2b7266dafc73df5fe8| Piero    | 07-09-2023   |doc: User personas update|
+|5c8de82dd325b6febd5b62caf01d9c5c92d9ae7a| Piero    | 07-09-2023   |doc: Web applications prototype links fixed|
+|fb664ec38bb84070b51dd887ab9493f6bbcb65c2| Piero    | 20-09-2023   |doc: incorrect information fixed and interview images added|
 
 
 # Contenido
