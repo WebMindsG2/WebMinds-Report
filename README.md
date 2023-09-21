@@ -33,6 +33,9 @@
 | TB1     | 20-08-2023  | Orlando  | Descripción de la startup, segmento objetivo, competidores |
 | TB1     | 30-08-2023  | Orlando  | Lean UX Canvas|
 | TB1     | 01-09-2023  | Antonella  |Lean-UX-Problem-Statements|
+| TB1     | 02-09-2023  | Paolo  | Needfinding|
+| TB1     | 05-09-2023  | Paolo  | Information Architecture|
+| TB1     | 05-09-2023  | Paolo  | Landing Page Wireframe|
 | TB1     | 06-09-2023  |Antonella | chapter 5|
 
 
