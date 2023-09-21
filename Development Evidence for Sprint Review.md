@@ -1,10 +1,14 @@
 ## 5.2.1.3. Development Evidence for Sprint Review.
-| Repository     | Branch | Commit Id | Commit Message               | Committed on (Date) |
-| -------------- | ------ | --------- | ---------------------------- | ------------------- |
-| Landing Page   | Main   | 8e6feaf   | Initial Commit               | 11/09/2023          |
-| Landing Page   | Main   | ed5979a   | Landing-Page/index.html     | 11/09/2023          |
-| Landing Page   | Main   | 1091ad5   | Landing-Page/image/logo.png | 11/09/2023          |
-| Landing Page   | Main   | 999c79d   | Landing-Page/Font           | 11/09/2023          |
-| Landing Page   | Main   | fb042b5   | Landing-Page/Assets/style.css | 11/09/2023        |
-| Landing Page   |        | 5b759e1   | Landing-Page/index.html     | 11/09/2023          |
-| Landing Page   |        | 2aa104f   | Landing-Page/image/f-logo.png | 11/09/2023        |
+A continuacion, se presentan los commits realizados en el repositorio del landing page en Github.
+
+|Repository|Branch|Commit Id|Commit Message|Committed on (Date)|
+| :- | :- | :- | :- | :- |
+|Landing Page|develop |d0d6a49|index-about-us.html|11/09/2023|
+|Landing Page|develop|ed5979a|Landing-Page/index.html|11/09/2023|
+|Landing Page|develop|2fcab5e|guest-host-image/guest.jpg|11/09/2023|
+|Landing Page|develop|e45db51|indexGuest.html|11/09/2023|
+|Landing Page|develop|fb042b5|Landing-Page/Assets/style.css|11/09/2023|
+|Landing Page|develop|c703de3|Landing-Page/index.html|11/09/2023|
+|Landing Page|develop|fbebf39|image-hero/hero-image.jpg|11/09/2023|
+
+
