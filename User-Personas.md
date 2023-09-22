@@ -1,9 +1,13 @@
 **2.2.2. User Personas.**
 
-**Segmento de hosts**
+**Segmento objetivo host:**
 
-Esta persona que tiene una familia tiene como objetivo aprovechar los espacios que tiene en su hogar para generar un ingreso extra. Se muestra determinada y precavida de averiguar una manera de lograr su objetivo.
+Acá podemos observar el User Persona de nuestro segmento Host donde Laura Gutierrez una estudiante universitaria de 25 años residente en Lima, Perú nos cuenta sobre sus metas, motivaciones, frustraciones y las tecnologias que usa en su dia a dia como sus marcas preferidas. Información que nos sirva para realizar nuestro estudio de mercado y poder hacer un servicio que cumpla con sus expectativas.
 
-**Segmento de guests**
+![Alt text](<Image/User Persona-Laura Gutierrez.png>)
 
-Esta persona tiene responsabilidades fuera de su hogar y necesita maneras de facilitar su día a día encontrando lugares donde estacionarse. Se muestra preocupada debido a su incomodidad cotidiana. 
+**Segmento objetivo guest:**
+
+Acá podemos observar el User Persona de nuestro segmento Guest donde Laura Gutierrez una estudiante universitaria de 22 años residente en Lima, Perú nos cuenta sobre sus metas, motivaciones, frustraciones y las tecnologias que usa en su dia a dia como sus marcas preferidas. Información que nos sirva para realizar nuestro estudio de mercado y poder hacer un servicio que cumpla con sus expectativas.
+
+![Alt text](<Image/User Persona-Luis Morales.png>)
