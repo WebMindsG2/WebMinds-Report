@@ -28,3 +28,19 @@ Código: U20211C403
 Carrera: Ingeniería de Software
 
 Como estudiante de la carrera de Ingeniería de Software, contribuire al equipo mis conocimientos fundamentales en algunos lenguajes de programación. Estos conocimientos me permitirán participar activamente en la creación y desarrollo de proyectos además tengo un enfoque responsable hacia mi trabajo y tareas asignadas. Entiendo la importancia de cumplir con plazos y metas establecidas, lo que contribuye al flujo de trabajo del equipo y al éxito general del proyecto.
+
+
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/323597812694777858/1154879514472628378/foto.jpg"width="200" height="230"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre: Piero Mendoza Pimentel
+
+Código: U201923446
+
+Carrera: Ingeniería de Software
+
+Como estudiante de ingeniería de software, mi contribución al equipo será el cumplimiento y aportación de los proyectos. A lo largo de mi aprendizaje como estudiante universitario, me he enfocado en aportar activamente en los trabajos y proyectos grupales que se ha presentado. Espero cumplir con las expectativas de mis compañeros y ayudarlos en lo que más necesitan en el transcurso del ciclo.
