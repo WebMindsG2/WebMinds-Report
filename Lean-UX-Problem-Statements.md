@@ -4,28 +4,17 @@ Ante esta situación nuestra Startup se plantea las siguientes Problems Statemen
 
 ### PS1:
 
-__Objetivos actuales del producto:__  Simplificar la búsqueda y utilización de espacios de estacionamiento en áreas urbanas.
-__Problema:__ Escasez de estacionamientos y búsqueda ineficiente generan frustración y retrasos en la experiencia de los conductores.
-__Pregunta solicitud de mejora:__ ¿Cómo podemos diseñar una aplicación que permita a los conductores encontrar, reservar y pagar por 
- espacios de estacionamiento de manera ágil, ahorrando tiempo y evitando la frustración?
+__Objetivos actuales del producto:__  Facilitar la búsqueda y utilización de espacios de estacionamiento en entornos urbanos, aliviando la congestión del tráfico.
+
+__Problema:__ La escasez de espacios de estacionamiento y la ineficiente búsqueda de lugares para estacionar causan frustración y retrasos a  los conductores urbanos. Estos conductores enfrentan el desafío constante de encontrar lugares de estacionamiento de manera rápida y eficiente, lo que impacta negativamente su experiencia de movilidad y calidad de vida.
+
+__Pregunta solicitud de mejora:__ ¿Cómo podemos diseñar una aplicación intuitiva que permita a los conductores ubicar, reservar y pagar por espacios de estacionamiento de manera rápida, mejorando así su experiencia de movilidad urbana y aliviando la congestión del tráfico?
 
 ### PS2:
 
-__Objetivos actuales del producto:__  Facilitar a los propietarios de espacios de estacionamiento la rentabilización de activos no utilizados.
-__Problema:__ Los dueños de estacionamientos no aprovechan eficazmente sus activos y se enfrentan al desafío de gestionarlos.
-__Pregunta solicitud de mejora:__¿Cómo podemos crear una plataforma que permita a los propietarios ofrecer, administrar y obtener beneficios de sus 
-espacios de estacionamiento de manera segura y efectiva?
+__Objetivos actuales del producto:__  Ofrecer a los propietarios una plataforma efectiva para gestionar y rentabilizar sus espacios de estacionamiento no utilizados.
 
-### PS3:
+__Problema:__ Los propietarios de espacios de estacionamiento no utilizados enfrentan dificultades para encontrar una forma efectiva de aprovechar sus activos. La falta de una solución adecuada para rentabilizar sus espacios limita sus oportunidades de ingresos y subutiliza valiosos recursos.
 
-__Objetivos actuales del producto:__ Transformar la forma en que las personas buscan y utilizan estacionamientos.
-__Problema:__ La congestión del tráfico y la búsqueda ineficiente afectan la movilidad y la experiencia de los conductores.
-__Pregunta solicitud de mejora:__ ¿Cómo podemos diseñar una interfaz intuitiva que permita a los usuarios encontrar fácilmente
-espacios de estacionamiento cercanos, contribuyendo así a mejorar la movilidad urbana?
+__Pregunta solicitud de mejora:__¿Cómo podemos diseñar una plataforma que permita a los propietarios de espacios de estacionamiento gestionar sus activos de manera eficiente, establecer precios, disponibilidad y recibir pagos de manera segura, brindándoles así una forma efectiva de aprovechar sus activos y generar ingresos adicionales?
 
-### PS4:
-
-__Objetivos actuales del producto:__  Ofrecer soluciones de suscripción para maximizar la visibilidad de los espacios disponibles.
-__Problema:__ La falta de opciones de estacionamiento eficientes y personalizadas limita la comodidad de los conductores.
-__Pregunta solicitud de mejora:__ ¿Cómo podemos desarrollar planes de suscripción que brinden a los conductores opciones 
-flexibles y convenientes para encontrar y usar estacionamientos en entornos urbanos?
