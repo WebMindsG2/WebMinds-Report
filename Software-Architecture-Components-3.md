@@ -1,0 +1,1 @@
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604753381245018/image.png)
