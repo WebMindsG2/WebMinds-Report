@@ -20,6 +20,8 @@
 - Orlando Arturo Roca Huapaya - u201919742
 - Paolo Sebastian Padilla Advincula- u202117993
 - Piero Mendoza Pimentel - u201923446
+- Gustavo Jandroel Aguirre Rodríguez - u202124162
+- Antonella Frida Gonzales Gomez - U20211C403
 
 **Ciclo:** 2023-02
 
@@ -31,12 +33,16 @@
 | Versión | Fecha       | Autor   | Descripción de modificación                              |
 |---------|-------------|---------|---------------------------------------------------------|
 | TB1     | 20-08-2023  | Orlando  | Descripción de la startup, segmento objetivo, competidores |
+| TB1     | 23-08-2023  | Gustavo  | Interviews & Competitor strategies|
+| TB1     | 23-08-2023  | Gustavo  | Competitor Analysis information|
 | TB1     | 30-08-2023  | Orlando  | Lean UX Canvas|
 | TB1     | 01-09-2023  | Antonella  |Lean-UX-Problem-Statements|
 | TB1     | 02-09-2023  | Paolo  | Needfinding|
+| TB1     | 04-09-2023  | Gustavo  | User Story|
 | TB1     | 05-09-2023  | Paolo  | Information Architecture|
 | TB1     | 05-09-2023  | Paolo  | Landing Page Wireframe|
 | TB1     | 06-09-2023  |Antonella | chapter 5|
+| TB1     | 06-09-2023  | Gustavo  | Product Backlog|
 | TB1     | 25-08-2023  | Piero    | Se añadieron los resumenes y analisis de las entrevistas de los segmentos objetivos |
 | TB1     | 06-09-2023  | Piero    | Se añadieron los wireframes y mock ups del web application y arreglos en el landing page |
 | TB1     | 07-09-2023  | Piero    | Se corrigieron algunos errores en los user persona y añadieron links |
@@ -55,8 +61,12 @@
 |-----------|-------------|--------------|-------------------------------------------------|
 |e697dc70ad35bd254c8ac004750057e65f851d83| Orlando| 20-08-2023   | doc: Advance startup description and target segment in chapter 1 - Added more details to the startup description and expanded on the target segment information in the first chapter.|
 |c2e95ee1bdb3bceda88301a0e164233a0e81fb4f| Orlando| 20-08-2023   |doc: Progress competitors section in chapter 2 - Expanded and updated the competitors section in the second chapter.|
+|aa30cb351b27bc16160b36c73a942e3d62fb3e29|Gustavo|23-08-2023|doc: Updated interviews and competitor strategies|
+|a7876ac610147ba80f70ea98d34e456eccb16eb9|Gustavo|23-08-2023|doc: Changes in Competitor Analysis information|
 |45f3f8cb8df5c5461a45ae0ab23d413fb3594dbe| Orlando| 30-08-2023   |doc: Canvas and Hypothesis Statement added|
 |d0fadf606272fd3a9a188c153843642969a3de9f| Antonella    | 01-09-2023   |chore: add initial files of chapter 1: the themes of chapter 1 were developed|
+|83321a4b955c28758f941dd6c4dbd201989fefc5|Gustavo|04-09-2023|doc: User Story development|
+|c54e380486f2383f998ba76a7f00bc3ede6ee0e0|Gustavo|04-09-2023|doc: Product Backlog Development|
 |a0f586e2d0bfee386ae0c3ca3b6e076ff10579ac| Antonella    | 06-09-2023   |chore: correction of chapter 1: the modifications of chapter 1 were made|
 |369a92199b966f03cf151a3ba78201aa2027c682| Piero    | 25-08-2023   |doc: Summary and analysis of interviews added|
 |5c8de82dd325b6febd5b62caf01d9c5c92d9ae7a| Piero    | 06-09-2023   |doc: Wireframes, Mock-ups and prototype added|
@@ -66,6 +76,9 @@
 |7fd4420c5e81bf8018d4eb76ff1c15735897ac82| Piero    | 06-09-2023   |feat: hero added|
 |11e7f0905d6496e8dd595d2b7266dafc73df5fe8| Piero    | 07-09-2023   |doc: User personas update|
 |5c8de82dd325b6febd5b62caf01d9c5c92d9ae7a| Piero    | 07-09-2023   |doc: Web applications prototype links fixed|
+|b82d6e603462d999794351d7be04c069c6036bd2| Gustavo    | 07-09-2023   |doc: Images chapter III added|
+|730bbd887b052f730d4fde3c6c3d2d87970d1d15| Gustavo    | 07-09-2023   |doc: To-be Scenario Mapping added|
+|f4f83f9bea1cc43a6a0e7df19b00defb7fb5e170| Gustavo    | 07-09-2023   |doc: Impact Mapping added|
 |fb664ec38bb84070b51dd887ab9493f6bbcb65c2| Piero    | 20-09-2023   |doc: incorrect information fixed and interview images added|
 
 
