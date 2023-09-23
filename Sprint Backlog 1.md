@@ -5,17 +5,17 @@ importantes para el éxito del proyecto.
 
 
 
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint1</th></tr>
-<tr><td colspan="2" valign="top">User story</td><td colspan="6" valign="top">Work Item/Task</td></tr>
-<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top"><p>Estimation</p><p>(Hours)</p></td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status(To-do InProcess ToReview Done)</td></tr>
-<tr><td colspan="1" rowspan="9" valign="top"><p></p><p>E1-US100</p></td><td colspan="1" rowspan="9" valign="top">Implementación del Landing Page</td><td colspan="1" valign="top">W01</td><td colspan="1" valign="top">Creación del repositorio de la landing page</td><td colspan="1" valign="top">Creación del repositorio de Github</td><td colspan="1" valign="top"><p>5</p><p>hours</p></td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W02</td><td colspan="1" valign="top">Desarrollo la navegación</td><td colspan="1" valign="top">Desarrollar la navegación interactiva</td><td colspan="1" valign="top"><p>3</p><p>hours</p></td><td colspan="1" valign="top">Louis</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W03</td><td colspan="1" valign="top">Desarrollo la sección inicial del landing page</td><td colspan="1" valign="top">` `Desarrollar la sección inicial de la landing page</td><td colspan="1" valign="top"><p>4</p><p>hours</p></td><td colspan="1" valign="top">` `Farid</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W04</td><td colspan="1" valign="top">Seccion about us de landing page</td><td colspan="1" valign="top">Implementer about us section </td><td colspan="1" valign="top"><p>5 </p><p>hourd</p></td><td colspan="1" valign="top">Farid</td><td colspan="1" valign="top">done</td></tr>
-<tr><td colspan="1" valign="top">W05</td><td colspan="1" valign="top">Seccion Host de landing page</td><td colspan="1" valign="top">` `Desarrollar la sección Host</td><td colspan="1" valign="top"><p>3</p><p>hours</p></td><td colspan="1" valign="top">` `<a name="_hlk146160728"></a>Orlando</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W06</td><td colspan="1" valign="top">Seccion Guest de landing page</td><td colspan="1" valign="top">Desarrollar la sección Guest</td><td colspan="1" valign="top"><p>3</p><p>hours</p></td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W07</td><td colspan="1" valign="top">` `Sección de Team Designer</td><td colspan="1" valign="top">` `Desarrollar la sección team designer.</td><td colspan="1" valign="top"><p>4</p><p>hours</p></td><td colspan="1" valign="top">` `Gustavo</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W08</td><td colspan="1" valign="top">Sección de subscription</td><td colspan="1" valign="top">Implementar la sección subscription</td><td colspan="1" valign="top"><p>4 </p><p>hours</p></td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">W09</td><td colspan="1" valign="top">Desarrollo de la sección de Footer de la landing page</td><td colspan="1" valign="top">Añadir un Footer en el landing page con link de nuestras redes sociales y como pueden contactarnos</td><td colspan="1" valign="top">3 hour</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">Done</td></tr>
-</table>
+
+|Sprint #|Sprint1|||||||
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|User story|Work Item/Task|||||||
+|Id|Title|Id|Title|Description|<p>Estimation</p><p>(Hours)</p>|Assigned To|Status(To-do InProcess ToReview Done)|
+|<p></p><p>HU00</p>|Implementación del Landing page|T01|Repositorio para el landing page|Crear el repositorio de Github para el alnding page|3|Orlando|Done|
+|HU12|Sección inicial del landing page|T01|Diseño de la sección inicial del landing page|Desarrollar la sección inicial del landing page|2|Orlando|Done|
+|HU13|Landing page para Host|T02|Diseñar landing page para visitantes|Implementar la información sobre los beneficios de ser un host|2|Antonella|Done|
+|HU13|Landing page para guest|T02|Diseñar landing page para el guest|Implementar la información sobre los veneficios de ser un guest|2|Antonella|Done|
+|HU14|Landing page sobre nosotros|T01|Diseñar landing page sobre nosotros|Integrar opciones de pago|3|<p>Farid</p><p></p>|Done|
+|HU12|Landig page para team Designer|T01|Sección de Team Designer|Desarrollar la sección team designer.|3|Louis |Done|
+|HU04|Landing page para suscripcion |T02|Sección de subscription|Implementar la sección subscription|3|Gustavo|Done|
+|HU16|<p></p><p>Footer de la landing page</p>|T02|sección de Footer de la landing page|Añadir un Footer en el landing page con link de nuestras redes sociales y como pueden contactarnos|2|Gustavo|Done|
 
