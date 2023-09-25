@@ -80,7 +80,11 @@
 |730bbd887b052f730d4fde3c6c3d2d87970d1d15| Gustavo    | 07-09-2023   |doc: To-be Scenario Mapping added|
 |f4f83f9bea1cc43a6a0e7df19b00defb7fb5e170| Gustavo    | 07-09-2023   |doc: Impact Mapping added|
 |fb664ec38bb84070b51dd887ab9493f6bbcb65c2| Piero    | 20-09-2023   |doc: incorrect information fixed and interview images added|
-
+|ad49237e12dcdc52783d208d40cd8fa11effdf39| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed source code management|
+|7ff059b2537260de5eda0c11ae56747b0837f286| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed Code Style Guide & Conventions|
+|b9ca2a9313d49992430d4dc597e089589d334e30| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed Team Collaboration Insights during Sprint|
+|7155ee23bc559086c0d45d752b6cf3402adfc13e| Antonella    | 22-09-2023   |chore: correction of chapter 5: Fixed Sprint Backlog 1|
+|b976a6c951c220c2f215d5fd9a8cd1ba277a35f6| Antonella    | 22-09-2023   |chore: correction of chapter 5: Fixed Sprint Backlog 2|
 
 # Contenido
 
