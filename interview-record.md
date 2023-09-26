@@ -4,7 +4,7 @@
 
 **Registro de entrevista n.º1:** Piero Marquez (22 años - San Miguel) - 21/08/23
 
-**Inicio y final de la entrevista:**  (00:00-06:52) 
+**(Start of recording: 00:00, End of recording: 06:52)**
 
 ![Alt text](Image/InterviewHost-1.png)
 
@@ -16,7 +16,7 @@ Piero, un estudiante universitario dedicado e interesado en buscar prácticas, n
 
 **Registro de entrevista n.º2:** Maryori Espinoza Espinoza (20 años - Santa Anita) - 21/08/23
 
-**Inicio y final de la entrevista:** (00:00-06:31) 
+**(Start of recording: 00:00, End of recording: 06:31)** 
 
 ![Alt text](Image/InterviewHost-2.png)
 
@@ -28,7 +28,7 @@ Maryori, una estudiante universitaria capaz e interesada en alquilar el espacio 
 
 **Registro de entrevista n.º3:** Mayra (23 años - Santiago de Surco) - 21/08/23
 
-**Inicio y final de la entrevista:** (00:00-05:53) 
+**(Start of recording: 00:00, End of recording: 05:53)** 
 
 ![Alt text](Image/InterviewHost-3.png)
 
@@ -42,7 +42,7 @@ Mayra, una economista profesional, ha estado considerando alquilar uno de los es
 
 **Registro de entrevista n.º1:** Kevin Tumbalobos Cubas (22 años – San Miguel) - 23/08/23
 
-**Inicio y final de la entrevista:** (00:00-06:52) 
+**(Start of recording: 00:00, End of recording: 06:52)**
 
 ![Alt text](Image/InterviewGuest-1.png)
 
@@ -54,7 +54,7 @@ Kevin, un especialista junior de Cloud Services, ha tenido dificultades al busca
 
 **Registro de entrevista n.º2:** Leonardo (21 años - Los olivos) - 23/08/23
 
-**Inicio y final de la entrevista:** (00:00-06:37) 
+**(Start of recording: 00:00, End of recording: 06:37)**
 
 ![Alt text](Image/InterviewGuest-2.png)
 
@@ -66,7 +66,7 @@ Leonardo, un estudiante universitario serio y franco, nos transmitió su experie
 
 **Registro de entrevista n.º3:** Jany Aventadaño (22 años – San Miguel) - 23/08/23
 
-**Inicio y final de la entrevista:** (00:00-07:48) 
+**(Start of recording: 00:00, End of recording: 07:48)**
 
 ![Alt text](Image/InterviewGuest-3.png)
 

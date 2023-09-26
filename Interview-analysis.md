@@ -3,6 +3,7 @@
 **Segmento objetivo host:**
 
 - El 66% de los hosts son estudiantes universitarios y el 33% tiene un trabajo profesional.
+- El 66% de los hosts son mujeres y el 33% de los hosts son hombres.
 - El 66% de los hosts viven en un apartamento y pagan un estacionamiento como parte de su contrato.
 - El 100% de los hosts están interesado en alquilar su espacio de estacionamiento.
 - El 100% de los hosts tienen como principal motivación el generar ingresos extra con el alquiler de su estacionamiento.
@@ -17,15 +18,16 @@ Mediante el análisis se destaca que la mayoría de entrevistados son estudiante
 
 **Segmento objetivo guest:**
 
-- El 66% de los guest son estudiantes universitarios y el 33% tiene un trabajo profesional.
-- El 66% de los guest tiene problemas al buscar estacionamiento en los lugares donde más frecuenta.
-- El 100% de los guest tiene problemas en encontrar estacionamiento en zonas urbanas o lugares concurridos
-- El 100% de los guest siente frustración al no poder encontrar un espacio de estacionamiento.
-- El 100% de los guest no había escuchado o utilizado alguna aplicación de alquilar de estacionamientos.
-- El 66% de los guest tienen dificultad al encontrar estacionamientos por su falta de experiencia al manejar en las calles.
-- El 66% de los guest le interesa encontrar espacios de estacionamientos cercanos a los lugares donde frecuentan.
-- El 100% de los guest ve como un gran incentivo para su uso el ofrecer descuentos a usuarios frecuentes.
-- El l00% de los guest le interesa poder visualizar la información del espacio de estacionamiento.
-- El 100% de los guest le gustaría que los espacios de estacionamientos disponibles tengan sistemas de seguridad.
+- El 66% de los guests son estudiantes universitarios y el 33% tiene un trabajo profesional.
+- El 66% de los guests son hombres y el 33% de los guests son mujeres.
+- El 66% de los guests tiene problemas al buscar estacionamiento en los lugares donde más frecuenta.
+- El 100% de los guests tiene problemas en encontrar estacionamiento en zonas urbanas o lugares concurridos
+- El 100% de los guests siente frustración al no poder encontrar un espacio de estacionamiento.
+- El 100% de los guests no había escuchado o utilizado alguna aplicación de alquilar de estacionamientos.
+- El 66% de los guests tienen dificultad al encontrar estacionamientos por su falta de experiencia al manejar en las calles.
+- El 66% de los guests le interesa encontrar espacios de estacionamientos cercanos a los lugares donde frecuentan.
+- El 100% de los guests ve como un gran incentivo para su uso el ofrecer descuentos a usuarios frecuentes.
+- El l00% de los guests le interesa poder visualizar la información del espacio de estacionamiento.
+- El 100% de los guests le gustaría que los espacios de estacionamientos disponibles tengan sistemas de seguridad.
 
 El análisis del segmento objetivo revela que la mayoría son estudiantes universitarios y enfrentan consistentemente frustraciones al buscar estacionamiento en zonas urbanas. La falta de familiaridad con los lugares que visitan y la ansiedad por la disponibilidad de espacios subrayan la necesidad de la aplicación propuesta. Valorizan la accesibilidad y la cercanía de estacionamientos seguros, destacando la importancia de una interfaz fácil de usar y actualizada. El atractivo de descuentos y recompensas para usuarios frecuentes se presenta como un fuerte motivador. En resumen, la clave será ofrecer una solución intuitiva y confiable que ofrezca estacionamientos cercanos y seguros, además de incentivos atractivos para asegurar la adopción y retención de este público diverso, en su mayoría compuesto por estudiantes universitarios.
