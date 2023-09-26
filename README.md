@@ -46,7 +46,9 @@
 | TB1     | 25-08-2023  | Piero    | Se añadieron los resumenes y analisis de las entrevistas de los segmentos objetivos |
 | TB1     | 06-09-2023  | Piero    | Se añadieron los wireframes y mock ups del web application y arreglos en el landing page |
 | TB1     | 07-09-2023  | Piero    | Se corrigieron algunos errores en los user persona y añadieron links |
-| TB1     | 20-09-2023  | Piero    | Se corrigieron errores en los nombres de los archivos de analisis de entrevista y se añadieron sus imagenes |
+| TP     | 20-09-2023  | Piero    | Se corrigieron errores en los nombres de los archivos de analisis de entrevista y se añadieron sus imagenes |
+| TP     | 22-09-2023  | Piero    | Se mejoraron los analisis de entrevistas y user persona |
+| TP     | 26-09-2023  | Piero    | Se actualizaron los user persona |
 |TP|20-09-2023|Gustavo|Se corrigieron las User Stories|
 |TP|22-09-2023|Gustavo|Se corrigió el Product Backlog|
 |TP|24-09-2023|Gustavo|Se corrigieron los Impact Mapping |
@@ -94,6 +96,10 @@
 |b9ca2a9313d49992430d4dc597e089589d334e30| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed Team Collaboration Insights during Sprint|
 |7155ee23bc559086c0d45d752b6cf3402adfc13e| Antonella    | 22-09-2023   |chore: correction of chapter 5: Fixed Sprint Backlog 1|
 |b976a6c951c220c2f215d5fd9a8cd1ba277a35f6| Antonella    | 22-09-2023   |chore: correction of chapter 5: Fixed Sprint Backlog 2|
+|fb664ec38bb84070b51dd887ab9493f6bbcb65c2| Piero   | 20-09-2023   |doc: incorrect information fixed and interview images added|
+|eff90cf85a5c0b1f76f87fcd90373d63bcff0300| Piero   | 22-09-2023   |doc: Improvement of interviews and User Personas|
+|eefe328e6189a1a936287d6631eeb4046ff65188| Piero    | 26-09-2023   |doc: Update user persona host and guest|
+
 
 # Contenido
 
