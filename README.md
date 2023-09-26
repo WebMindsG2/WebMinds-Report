@@ -55,7 +55,11 @@
 | TP      | 21-09-2023  | Orlando  | Se corrigió los diagramas C4 de Domain Driven Design |
 | TP      | 24-09-2023  | Orlando y Gustavo | Se corrigió nuestro impact mapping|
 | TP      | 25-09-2023  | Orlando | Se mejoró el orden de la documentación |
-
+|TP       |20-09-2023   |Gustavo  |Se corrigieron las User Stories|
+|TP       |22-09-2023   |Gustavo  |Se corrigió el Product Backlog|
+|TP       |24-09-2023   |Gustavo  |Se corrigieron los Impact Mapping |
+| TP     | 06-09-2023  |Antonella | chapter 5 was corrected|
+| TP     | 06-09-2023  |Antonella | Sprint Backlog 2 was developed |
 
 # Project Report Collaboration Insights 
 
@@ -92,6 +96,11 @@ WebMinds-Report (Repositorio): https://github.com/WebMindsGroup/WebMinds-Report.
 |940f59163f33974e84121620a117aba47f262304| Orlando    | 20-09-2023   |doc: Lean UX Canvas updated - Each hypothesis focus on each feature.|
 |f325d3e2a359bcba80bfef8b42531c7109f60840| Orlando    | 21-09-2023   |doc: Domain Driven Design updated - Single Page Application added in the container diagram|
 |33aa044f69e0f792e0a323129206dd1945f2b443| Gustavo    | 24-09-2023   |doc: Lean UX Canvas updated - Each hypothesis focus on each feature.|
+|ad49237e12dcdc52783d208d40cd8fa11effdf39| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed source code management|
+|7ff059b2537260de5eda0c11ae56747b0837f286| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed Code Style Guide & Conventions|
+|b9ca2a9313d49992430d4dc597e089589d334e30| Antonella    | 21-09-2023   |chore: correction of chapter 5: Fixed Team Collaboration Insights during Sprint|
+|7155ee23bc559086c0d45d752b6cf3402adfc13e| Antonella    | 22-09-2023   |chore: correction of chapter 5: Fixed Sprint Backlog 1|
+|b976a6c951c220c2f215d5fd9a8cd1ba277a35f6| Antonella    | 22-09-2023   |chore: correction of chapter 5: Fixed Sprint Backlog 2|
 
 
 # Contenido
