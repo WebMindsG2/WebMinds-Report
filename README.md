@@ -908,7 +908,47 @@ Con el fin de mejorar nuestra comprensión de los grupos a los que nos dirigimos
 
 ### 4.1.1. General Style Guidelines. <a name="411-general-style-guidelines"></a>
 
+* Branding:
+
+  El branding de Parkease busca transmitir eficiencia, confianza y modernidad. Utilizamos una combinación de colores y elementos visuales que reflejan los valores fundamentales de nuestra plataforma.
+
+
+* Typography:
+
+  Hemos elegido la fuente tipográfica "Poppins" como nuestra principal elección para el texto. Poppins es una fuente moderna y legible que complementa nuestra imagen de marca al transmitir claridad y accesibilidad.
+
+* Colors:
+
+  Nuestra paleta de colores incluye:
+
+  Amarillo: Representa la energía y la alegría, reflejando la idea de una experiencia de estacionamiento optimizada.
+
+  Azul: Transmite confianza, seguridad y profesionalismo, asegurando a los usuarios que Parkease es una solución confiable.
+
+  Negro: Refleja elegancia, modernidad y seriedad, destacando nuestra calidad y compromiso con la excelencia.
+
+* Tono de Comunicación y Lenguaje:
+
+  El tono de comunicación de Parkease es una mezcla de profesionalismo y amigabilidad. Nuestro lenguaje es claro y conciso, pero también muestra empatía hacia las necesidades de nuestros usuarios. Mantenemos un equilibrio entre lo formal y lo casual, manteniendo un enfoque respetuoso pero accesible.
+
+
+
 ### 4.1.2. Web Style Guidelines. <a name="412-web-style-guidelines"></a>
+
+* Colores:
+
+  * Colores Primarios:
+
+    #F6EB0F:El amarillo es un color brillante y alegre que puede reflejar la idea de que Parkease ofrece una solución que mejora la experiencia de estacionamiento, lo que a su vez puede generar una sensación de felicidad y optimismo entre los conductores.
+
+
+    #001F3F:El azul es ampliamente conocido por transmitir confianza y seguridad. Utilizar el color azul en la plataforma Parkease puede comunicar que la aplicación es confiable y que los usuarios pueden sentirse seguros al utilizarla para encontrar y reservar espacios de estacionamiento.
+
+  * Colores Secundario:
+
+    #000000:El negro se asocia con profesionalismo y seriedad. Puede comunicar que Parkease es una plataforma confiable y comprometida en brindar un servicio de calidad a sus usuarios. 
+
+
 
 ## 4.2. Information Architecture. <a name="42-information-architecture"></a>
 
@@ -1275,6 +1315,8 @@ Link del video:
 
 ### 4.7.1. Class Diagrams. <a name="471-class-diagrams"></a>
 
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1156037037028294836/Diagrama_sin_titulo.drawio.png?ex=651382e3&is=65123163&hm=1aec62f20bfa32028599667ba3c52e3bdf3e88a0c9b433a2dec2431a35679492&)
+
 
 ### 4.7.2. Class Dictionary. <a name="472-class-dictionary"></a>
 
@@ -1283,7 +1325,7 @@ Link del video:
 
 ### 4.8.1. Database Diagram. <a name="481-database-diagram"></a>
 
-
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1156323640502140968/Base_de_datos.png?ex=65148dcf&is=65133c4f&hm=5d937c43f1afe133c2052b8853ab5fbeb9420e52d70a972431eda0101b167fbe&)
 
 # Capítulo V: Product Implementation, Validation & Deployment <a name="1"></a>
 
@@ -1472,7 +1514,6 @@ El Sprint Planning es un encuentro que se lleva a cabo al comienzo de cada Sprin
 A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
 
 
-
 |Sprint #|Sprint 2|
 | :- | - |
 |Sprint Planning Background||
@@ -1491,7 +1532,22 @@ A continuación, se presentará el sprint planning 2 donde se mostrarán las evi
 
 #### 5.2.1.1. Sprint Planning 1. <a name="9"></a>
 
+El Sprint Planning es un encuentro que se lleva a cabo al comienzo de cada Sprint dentro del enfoque de Scrum. En esta reunión, el equipo de Scrum se reúne para establecer la meta del Sprint y debatir sobre los elementos del backlog del producto. Se escogen las tareas que serán abordadas en el próximo Sprint. Además, el equipo de desarrollo define los elementos específicos del backlog del Sprint y crea un plan detallado para su cumplimiento. Esta reunión, que por lo general tiene una duración de unas pocas horas, involucra a todos los miembros del equipo Scrum, incluyendo el Scrum Master y el Product Owner. El propósito fundamental del Sprint Planning es generar una comprensión clara y compartida acerca de los objetivos a alcanzar durante el Sprint y cómo se llevarán a cabo.
 
+|Sprint #|Sprint 1|
+| :- | - |
+|Sprint Planning Background||
+|Date|30 de Agosto del 2023|
+|Time|15:00 horas (GMT-5)|
+|Location|Reunión virtual (Plataforma Discord)|
+|Prepared By|WebMinds|
+|Attendees (to planning meeting)|Todos los miembros del grupo|
+|Sprint 1 – 1 Review Summary|Dado que se trata del primer sprint, no hay un review summary de un sprint anterior |
+|Sprint 1 – 1 Retrospective Summary|En este sprint se planea desarrollar el landing page con el framework de estilos Tailwind, además se converso sobre el contenido del los textos dentro del langing page y el dise;o que se ha implementado anteriormente a través de Figma. Al finalizar este sprint, el landing page debe estar desplegado en Netlyfy y cualquien usuario debería poder acceder y vualizar la página a través del link.|
+|Sprint Goal & User Stories||
+|Sprint 1 Goal|Implementar y desplegar Landing Page|
+|Sprint 1 Velocity|15|
+|Sprint of Story Points|8|
 
 #### 5.2.1.2. Sprint Backlog 1. <a name="10"></a>
 
