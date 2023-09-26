@@ -902,6 +902,13 @@ Con el fin de mejorar nuestra comprensión de los grupos a los que nos dirigimos
 |14|US21|Obtención de Datos a través de la API|Como Developer quiero tener la capacidad de obtener la lista de propietarios, la lista de usuarios y los anuncios publicados en la aplicación para poder utilizar estos datos en aplicaciones o servicios externos.|8|
 |15|US22|Obtener Detalles de un Propietario por ID|Como developer, quiero obtener los detalles de un propietario específico a través de su identificación única (ID), para realizar tareas relacionadas con la gestión de propietarios.|8|
 
+A continuación se muestra la elaboración del Product Backlog en la herramienta Trello:
+
+![PB](/images-3/ProductBacklogTrello.png)
+
+[Link del Trello](https://trello.com/b/mM7cgRvi/parkease)
+
+
 # Capítulo IV: Product Design <a name="capítulo-iv-product-design"></a>
 
 ## 4.1. Style Guidelines. <a name="41-style-guidelines"></a>
