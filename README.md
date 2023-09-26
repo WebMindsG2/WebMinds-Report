@@ -897,49 +897,376 @@ Con el fin de mejorar nuestra comprensión de los grupos a los que nos dirigimos
 
 ### 4.2.1. Organization Systems. <a name="421-organization-systems"></a>
 
+**Organización Visual del Contenido:**
+
+**Jerarquía Visual:**
+
+Utilizaremos una jerarquía visual clara para destacar elementos cruciales, como la búsqueda de espacios, la reserva y la información del usuario. Esto asegurará que los usuarios puedan identificar rápidamente las funciones clave y sepan dónde dirigirse para lograr sus objetivos.
+
+**Organización Secuencial (Step-by-Step to Accomplish):** Implementaremos un enfoque de organización secuencial en el proceso de reserva de espacios. Guiaremos a los usuarios paso a paso, desde la búsqueda hasta la confirmación, para asegurarnos de que cada etapa sea comprensible y fácil de seguir.
+
+**Organización Matricial:** En casos donde haya múltiples opciones o características, como los planes de suscripción, utilizaremos una organización matricial para presentar de manera clara y comparativa las diferentes opciones. Esto ayudará a los usuarios a tomar decisiones informadas.
+
+**Esquemas de Categorización de Contenido:**
+
+**Cronológico:** Emplearemos la categorización cronológica en secciones como "Historial de Reservas" para que los usuarios puedan rastrear y revisar sus acciones pasadas de manera ordenada.
+
+
+**Según Audiencia (Grupos de Usuarios):** Utilizaremos la categorización según grupos de usuarios en áreas como "Opciones de Suscripción", donde ofreceremos planes personalizados para diferentes tipos de conductores.
+
 ### 4.2.2. Labeling Systems. <a name="422-labeling-systems"></a>
+
+Este enfoque utiliza texto claro y conciso para identificar las funciones y secciones en el landing page, manteniendo el estilo minimalista y facilitando la comprensión de los usuarios. Además, se han etiquetado los botones y enlaces de navegación para una experiencia de usuario más clara. Por otro lado se utilizaron íconos de colores para representar características de la aplicación y redes sociales
+
+![Texto alternativo](Images-4/LABELING%20SYSTEMS%202.png)
+![Texto alternativo](Images-4/LABELING%20SYSTEMS.png)
 
 ### 4.2.3. SEO Tags and Meta Tags <a name="423-seo-tags-and-meta-tags"></a>
 
+**Landing Page:**
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ParkEase - Encuentra y Reserva Estacionamiento Fácilmente</title>
+<meta name="description" content="ParkEase simplifica tu experiencia de estacionamiento. Encuentra y reserva fácilmente espacios de estacionamiento cerca de ti. Únete a nosotros hoy.">
+<meta name="keywords" content="estacionamiento, reserva de estacionamiento, parqueo, estacionamiento cercano, ParkEase">
+<meta name="author" content="ParkEase Inc.">
+<link rel="stylesheet" href="style.css">
+
+```
+**Web application:**
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bienvenido a ParkEase - Tu Solución de Estacionamiento en Línea</title>
+<meta name="description" content="ParkEase es tu compañero confiable para encontrar y reservar espacios de estacionamiento. Descubre una forma más fácil de estacionar.">
+<meta name="keywords" content="reserva de estacionamiento en línea, aplicación de estacionamiento, estacionamiento seguro, encontrar estacionamiento">
+<meta name="author" content="ParkEase Inc.">
+<link rel="stylesheet" href="app-style.css">
+```
+
 ### 4.2.4. Searching Systems. <a name="424-searching-systems"></a>
 
+**4.2.4. Searching Systems.**
+
+Un sistema de búsqueda efectivo permitirá a los usuarios encontrar rápidamente la información que necesiten y ofrecer opciones de filtro para personalizar sus búsquedas. La presentación de los resultados será clara y concisa, y los usuarios deben poder interactuar con los resultados para obtener más información y realizar reservas si es necesario.
+
+**Opciones de Búsqueda:**
+
+- Búsqueda por Ubicación
+- Búsqueda por Fecha y Hora
+- Filtros de Precio
+- Tipo de Estacionamiento
+- Reseñas y Calificaciones
+
+**Aspecto de los Datos Después de la Búsqueda:**
+
+- Lista de Resultados
+- Mapa Interactivo
+- Filtros Adicionales
+- Información Detallada
+- Reservas
+- Ordenar Resultados
+
 ### 4.2.5. Navigation Systems. <a name="425-navigation-systems"></a>
+
+**4.2.5. Navigation Systems.**
+
+El sistema de navegación en el Landing Page y las aplicaciones es crucial para guiar a los usuarios de manera efectiva.
+
+
+
+
+- **Menú de Navegación Claro:** Utiliza un menú visible con botones y texto claro para las secciones importantes.
+
+
+
+
+- **Estructura Jerárquica:** Organiza la información de manera jerárquica, destacando lo más importante.
+
+
+
+
+- **Enlaces y Botones Reales:** Utiliza enlaces y botones descriptivos y relevantes.
+
+
+
+
+- **Barra de Búsqueda:** Incluye una barra de búsqueda para facilitar la búsqueda de información.
+
+
+
+
+- **Rutas de Navegación Guiada:** Crea rutas paso a paso para tareas específicas.
+
+
+
+
+- **Mapas Interactivos:** Usa mapas que permitan explorar ubicaciones y detalles.
+
+
+
+
+- **Filtros y Categorías:** Ofrece filtros y categorías para refinar búsquedas.
+
+
+
+
+- **Enlaces de Regreso**: Proporciona enlaces "Volver" para una navegación más fácil.
+
+
+
+
+- **Navegación Responsiva:** Asegura que la navegación sea efectiva en dispositivos móviles.
+
+
+
+
+- **Pruebas de Usuario:** Realiza pruebas y ajusta según el feedback de los usuarios.
+
+Un buen sistema de navegación mejora la experiencia del usuario al facilitar la búsqueda y la interacción. Diseñado pensado en las necesidades de nuestros usuarios para lograr una navegación efectiva.
 
 ## 4.3. Landing Page UI Design. <a name="43-landing-page-ui-design"></a>
 
 ### 4.3.1. Landing Page Wireframe. <a name="431-landing-page-wireframe"></a>
 
+![Texto alternativo](Images-4/WIREFRAMES.png)
+![Texto alternativo](Images-4/WIREFRAMES2.png)
+![Texto alternativo](Images-4/WIREFRAMES3.png)
+![Texto alternativo](Images-4/WIREFRAMES4.png)
+
 ### 4.3.2. Landing Page Mock-up. <a name="432-landing-page-mock-up"></a>
+
+![Texto alternativo](Images-4/MOCKUP1.png)
+![Texto alternativo](Images-4/MOCKUP2.png)
+![Texto alternativo](Images-4/MOCKUP3.png)
+![Texto alternativo](Images-4/MOCKUP4.png)
+![Texto alternativo](Images-4/MOCKUP5.png)
+![Texto alternativo](Images-4/MOCKUP6.png)
 
 ## 4.4. Web Applications UX/UI Design. <a name="44-web-applications-uxui-design"></a>
 
 ### 4.4.1. Web Applications Wireframes. <a name="441-web-applications-wireframes"></a>
 
+- Crear cuenta
+![](Images-4/WebApplicationWireframe1.png)
+
+- Inicio de sesión
+![](Images-4/WebApplicationWireframe2.png)
+
+- Recuperación de contraseña
+![](Images-4/WebApplicationWireframe3.png)
+
+- Métodos de pago
+![](Images-4/WebApplicationWireframe4.png)
+
+- Historial de pagos
+![](Images-4/WebApplicationWireframe5.png)
+
+User goal: Funcionalidades de búsqueda de los usuarios.
+
+- Búsqueda de un espacio de estacionamientos y filtrado de búsqueda.
+![](Images-4/WebApplicationWireframe6.png)
+
+- Búsqueda de un espacio en la lista de favoritos.
+![](Images-4/WebApplicationWireframe7.png)
+
+
+User goal: Mejora de soporte al cliente y experiencia de servicio
+
+- Acceso a las preguntas frecuentes y contacto con servicio técnico.
+![](Images-4/WebApplicationWireframe8.png)
+
+
+User goal: Funcionalidad de pagos
+
+- Visualización y confirmación de pago.
+![](Images-4/WebApplicationWireframe9.png)
+
+- Compra de suscripciones.
+![](Images-4/WebApplicationWireframe10.png)
+
+User goal: Preferencia y gestión de cuenta
+
+- Editar información del perfil del usuario y actualizar métodos de pago.
+![](Images-4/WebApplicationWireframe11.png)
+
+- Creación de listado de espacios de estacionamientos.
+![](Images-4/WebApplicationWireframe12.png)
+
+- Visualización, gestión y configuración de espacios de estacionamiento.
+![](Images-4/WebApplicationWireframe13.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams. <a name="442-web-applications-wireflow-diagrams"></a>
+
+**User goal:Usuario se registra, recupera la contraseña o inicia sesión en la aplicación web.**
+
+![](Images-4/WebApplicationWireflowDiagram1.png)
+
+**Descripción:**
+
+Al estar en la pestaña de bienvenida, el usuario tiene dos opciones: registrarse de manera gratuita rellenando el formulario con sus datos personales e iniciar sesión rellenando el formulario con su correo y contraseña. Además, en la pestaña iniciar sesión puede darle a la opción de recuperar contraseña para recibir un correo con las instrucciones de recuperación.
+
+**User goal: Seleccionar las preguntas frecuentes y soporte técnico**
+
+![](Images-4/WebApplicationWireflowDiagram2.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la opción de preguntas frecuentes. El usuario puede seleccionar entre las preguntas frecuentes de arrendatarios y arrendadores. Si no consigue resolver sus dudas, en la pestaña de preguntas frecuentes y soporte puede contactar con una persona de servicio técnico.
+
+**User goal:Ver perfil y cambiar método de pago**
+
+![](Images-4/WebApplicationWireflowDiagram3.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a su perfil. Dentro de la pestaña de perfil de usuario, puede cambiar sus datos como su nombre, apellidos, número de celular, DNI, correo electrónico y además cambiar el método de pago.
+
+**User goal: Visualización y búsqueda de estacionamientos favoritos**
+
+![](Images-4/WebApplicationWireflowDiagram4.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a mis favoritos. Dentro de la pestaña de espacios de estacionamientos favoritos, el usuario puede visualizar los estacionamientos que ha seleccionado como favoritos y además puede filtrar la búsqueda por nombre de arrendador.
+
+**User goal: Visualización de historial de pagos de estacionamientos**
+
+![](Images-4/WebApplicationWireflowDiagram5.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a historial de pagos. Dentro de la pestaña historial de pagos, el usuario puede visualizar los pagos que ha hecho con su respectiva fecha, método de pago, importe, nombre de arrendador y estado.
+
+**User goal:Información y pagos de las suscripciones**
+
+![](Images-4/WebApplicationWireflowDiagram6.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar a mi suscripción. Dentro de la pestaña tipos de suscripción, el usuario puede seleccionar el tipo de suscripción que desea tener y proceder al pago de esta.
+
+**User goal: Creación y visualización de espacio de estacionamiento**
+![](Images-4/WebApplicationWireflowDiagram7.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede seleccionar la pestaña con el nombre del usuario y entrar crear espacio. Dentro de la pestaña creación de espacio de estacionamiento, el usuario puede llenar el formulario con los datos de nombre, teléfono, precio por hora y día, información adicional y dirección. Al crear el nuevo estacionamiento, el usuario puede dirigirse a la pestaña de espacio de estacionamiento para visualizar y gestionar el nuevo espacio.
+
+**User goal: Búsqueda y pago de espacio de estacionamiento**
+
+![](Images-4/WebApplicationWireflowDiagram8.png)
+
+**Descripción:**
+
+Al entrar en la pestaña de inicio, el usuario puede buscar los espacios de estacionamientos más cercanos a la ubicación de interés. Luego el usuario podrá seleccionar el resultado de su agrado y visualizar a detalle la información del arrendador y del espacio para así poder proceder al pago. Dentro del pago podrá modificar los detalles y visualizar un resumen del pago.
 
 ### 4.4.3. Web Applications Mock-ups. <a name="443-web-applications-mock-ups"></a>
 
+User goal: Preferencia y gestión de cuenta de los usuarios.
+
+- Crear cuenta
+![](Images-4/WebApplicationMockup1.png)
+
+- Inicio de sesión
+![](Images-4/WebApplicationMockup2.png)
+
+- Recuperación de contraseña
+![](Images-4/WebApplicationMockup3.png)
+
+- Métodos de pago
+![](Images-4/WebApplicationMockup4.png)
+
+- Historial de pagos
+![](Images-4/WebApplicationMockup5.png)
+
+User goal: Funcionalidades de búsqueda de los usuarios.
+
+- Búsqueda de un espacio de estacionamientos y filtrado de búsqueda.
+![](Images-4/WebApplicationMockup6.png)
+
+- Búsqueda de un espacio en la lista de favoritos.
+![](Images-4/WebApplicationMockup7.png)
+
+
+User goal: Mejora de soporte al cliente y experiencia de servicio
+
+- Acceso a las preguntas frecuentes y contacto con servicio técnico.
+![](Images-4/WebApplicationMockup8.png)
+
+
+User goal: Funcionalidad de pagos
+
+- Visualización y confirmación de pago.
+![](Images-4/WebApplicationMockup9.png)
+
+- Compra de suscripciones.
+![](Images-4/WebApplicationMockup10.png)
+
+
+User goal: Preferencia y gestión de cuenta
+
+- Editar información del perfil del usuario y actualizar métodos de pago.
+![](Images-4/WebApplicationMockup11.png)
+
+- Creación de listado de espacios de estacionamientos.
+![](Images-4/WebApplicationMockup12.png)
+
+- Visualización, gestión y configuración de espacios de estacionamiento.
+![](Images-4/WebApplicationMockup13.png)
+
 ### 4.4.4. Web Applications User Flow Diagrams. <a name="444web-applications-user-flow-diagrams"></a>
 
+
+
 ## 4.5. Web Applications Prototyping. <a name="45-web-applications-prototyping"></a>
+
+En esta sección se compartirá el prototipo relacionado a la aplicación web, donde se presentan el alcance de los user goals en los usuarios objetivos. A continuación, se adjunta el link al video completo de Web Applications Prototyping.
+
+Link del prototipo de aplicación web: 
+
+<https://www.figma.com/proto/hskkxmfjjSNjqYkdBIoUlg/Mock-up?type=design&node-id=838-801&t=56PFpOeL9u0Q1qER-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=838%3A801>
+
+Link del video:
+
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EcEuPGWuCGdPsPl8sIY6SFIBdo3C39AfcYRA3U7P58k6hw?e=Rm0x1b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19>
 
 ## 4.6. Domain-Driven Software Architecture. <a name="46-domain-driven-software-architecture"></a>
 
 ### 4.6.1. Software Architecture Context Diagram. <a name="461-software-architecture-context-diagram"></a>
 
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604339525066852/image.png)
+
 ### 4.6.2. Software Architecture Container Diagrams. <a name="462-software-architecture-container-diagrams"></a>
 
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604417945980959/image.png)
+
 ### 4.6.3. Software Architecture Components Diagrams. <a name="463-software-architecture-components-diagrams"></a>
+
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604877197090908/image.png)
+
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604817554083911/image.png)
+
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604753381245018/image.png)
+
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604556123115530/image.png)
+
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154604490117353572/image.png)
 
 ## 4.7. Software Object-Oriented Design. <a name="47-software-object-oriented-design"></a>
 
 ### 4.7.1. Class Diagrams. <a name="471-class-diagrams"></a>
 
+
 ### 4.7.2. Class Dictionary. <a name="472-class-dictionary"></a>
+
 
 ## 4.8. Database Design. <a name="48-database-design"></a>
 
 ### 4.8.1. Database Diagram. <a name="481-database-diagram"></a>
+
+
 
 # Capítulo V: Product Implementation, Validation & Deployment <a name="1"></a>
 
