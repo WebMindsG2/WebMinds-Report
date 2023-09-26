@@ -49,6 +49,7 @@
 | TP     | 20-09-2023  | Piero    | Se corrigieron errores en los nombres de los archivos de analisis de entrevista y se añadieron sus imagenes |
 | TP     | 22-09-2023  | Piero    | Se mejoraron los analisis de entrevistas y user persona |
 | TP     | 26-09-2023  | Piero    | Se actualizaron los user persona |
+| TP     | 26-09-2023  | Piero    | Las imagenes del prototipo y diagrama de flujo de usuario se añadieron |
 |TP|20-09-2023|Gustavo|Se corrigieron las User Stories|
 |TP|22-09-2023|Gustavo|Se corrigió el Product Backlog|
 |TP|24-09-2023|Gustavo|Se corrigieron los Impact Mapping |
@@ -99,6 +100,7 @@
 |fb664ec38bb84070b51dd887ab9493f6bbcb65c2| Piero   | 20-09-2023   |doc: incorrect information fixed and interview images added|
 |eff90cf85a5c0b1f76f87fcd90373d63bcff0300| Piero   | 22-09-2023   |doc: Improvement of interviews and User Personas|
 |eefe328e6189a1a936287d6631eeb4046ff65188| Piero    | 26-09-2023   |doc: Update user persona host and guest|
+|902195701a24a7758b122732757e45c59400e4bb| Piero    | 26-09-2023   |doc: Prototype images and user flow diagrams images added|
 
 
 # Contenido
