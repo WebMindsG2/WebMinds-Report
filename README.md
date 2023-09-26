@@ -196,23 +196,259 @@ WebMinds-Report (Repositorio): https://github.com/WebMindsGroup/WebMinds-Report.
 
 ### 1.1.1. Descripción de la Startup <a name="111-descripción-de-la-startup"></a>
 
+ParkEase surge como una solución ante la creciente preocupación por la escasez de espacios de estacionamiento en entornos urbanos. La agobiante congestión del tráfico y la ineficiente búsqueda de lugares para estacionar generan frustración y retrasos en la experiencia de los conductores a nivel global. A su vez, aquellos que poseen espacios de estacionamiento no utilizados se enfrentan al desafío de encontrar una manera efectiva de aprovechar estos activos.
+
+ParkEase se propone revolucionar la forma en que las personas encuentran y utilizan espacios de estacionamiento. Crearemos una aplicación que ofrecerá una interfaz intuitiva que les permitirá buscar, reservar y pagar por estacionamientos de manera rápida y fluida. Los usuarios podrán ubicar fácilmente espacios disponibles cerca de su destino, ahorrando tiempo y evitando la frustración de la búsqueda ineficiente. Por otro lado, los propietarios de espacios de estacionamiento podrán registrarse en la plataforma y ofrecer sus espacios disponibles para alquiler. La aplicación permitirá a los propietarios gestionar sus listados, establecer precios, disponibilidad y recibir pagos de manera segura. Esto les brindará una forma eficaz de aprovechar sus activos, generando ingresos adicionales mientras contribuyen a aliviar la congestión del tráfico.
+
 ### 1.1.2. Perfiles de integrantes del equipo <a name="112-perfiles-de-integrantes-del-equipo"></a>
+
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/782453162409328641/1150006514816397382/Imagen_de_WhatsApp_2023-08-18_a_las_11.10.11.jpg"width="200" height="230"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre: Orlando Arturo Roca Huapaya
+
+Código: U201919742
+
+Carrera: Ingeniería de Software
+
+Como estudiante de ingeniería de software, mi contribución al equipo se centra en mis conocimientos en la planificación y diseño de software. A lo largo de mi formación, he tenido la oportunidad de desarrollar proyectos utilizando Java, lo que me brinda una ventaja significativa con el desarrollo del sistema que estamos trabajando. Estoy entusiasmado por aplicar mis habilidades en el desarrollo y trabajar junto al equipo para alcanzar nuestros objetivos.
+
+
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/891740823924903949/1154793605223948338/Imagen_de_WhatsApp_2023-08-18_a_las_18.26.31.jpg"width="200" height="230"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre:Antonella Frida Gonzales Gomez
+
+Código: U20211C403
+
+Carrera: Ingeniería de Software
+
+Como estudiante de la carrera de Ingeniería de Software, contribuire al equipo mis conocimientos fundamentales en algunos lenguajes de programación. Estos conocimientos me permitirán participar activamente en la creación y desarrollo de proyectos además tengo un enfoque responsable hacia mi trabajo y tareas asignadas. Entiendo la importancia de cumplir con plazos y metas establecidas, lo que contribuye al flujo de trabajo del equipo y al éxito general del proyecto.
+
+
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/323597812694777858/1154879514472628378/foto.jpg"width="200" height="230"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre: Piero Mendoza Pimentel
+
+Código: U201923446
+
+Carrera: Ingeniería de Software
+
+Como estudiante de ingeniería de software, mi contribución al equipo será el cumplimiento y aportación de los proyectos. A lo largo de mi aprendizaje como estudiante universitario, me he enfocado en aportar activamente en los trabajos y proyectos grupales que se ha presentado. Espero cumplir con las expectativas de mis compañeros y ayudarlos en lo que más necesitan en el transcurso del ciclo.
 
 ## 1.2. Solution Profile <a name="12-solution-profile"></a>
 
 ### 1.2.1  Antecedentes y problemática <a name="121-antecedentes-y-problemática"></a>
 
+##### Antecedentes:
+En la actualidad, las áreas urbanas experimentan un aumento constante en la congestión del tráfico debido al crecimiento de la población y al incremento de la cantidad de vehículos en circulación. Este problema de tráfico, agravado por la ineficiente búsqueda de espacios de estacionamiento, ha generado una experiencia frustrante para los conductores en todo el mundo. Además, esta situación también representa un desafío para quienes poseen espacios de estacionamiento no utilizados en áreas urbanas, ya que no cuentan con una plataforma efectiva para aprovechar estos activos.
+
+#### problemática:
+
+##### 1. What (Qué)
+¿Cuál es el problema?
+
+La problemática que aborda es la escasez de espacios de estacionamiento en entornos urbanos y búsqueda ineficiente de lugares para estacionar.
+
+##### 2. When (Cuando)
+¿Cuándo sucede el problema?
+
+Esta preocupación ha estado aumentando a lo largo del tiempo, a medida que las ciudades han experimentado un crecimiento de la población y, por lo tanto, la cantidad de vehículos en circulación, la congestión de tráfico y la búsqueda ineficiente de estacionamiento se ha vuelto más apremiante en los últimos años.
+
+##### 3. Where (Dónde)
+¿Dónde ocurre el problema?
+
+Esta problemática es común en áreas urbanas densamente pobladas en todo el mundo, donde el espacio es limitado y la cantidad de vehículos en circulación es alta.
+
+##### 4. Who (Quién)
+¿Quiénes están involucrados?
+
+Los afectados por este problema son tanto los conductores que enfrentan las dificultades para encontrar lugares de estacionamiento convenientes como los propietarios de los espacios no utilizados que buscan una forma efectiva de aprovechar esos activos.
+
+##### 5. Why (Por qué)
+¿Cuál es la causa del problema?
+
+Esto ocurre debido a la insuficiencia de lugares de estacionamiento disponible en áreas urbanas, a lo que lleva a una congestión de tráfico más intensa y a la dificultad para los conductores de encontrar estacionamientos de manera oportuna
+
+##### 6. How (Cómo)
+¿Qué llevó a la persona a llegar a esta situación?
+
+La congestión del tráfico y la falta de espacios de estacionamiento disponibles en entornos urbanos densos llevaron a la persona a la situación de tener dificultades para encontrar estacionamiento de manera conveniente y eficiente
+
+##### 7. How much  (Cuánto)
+¿Cuánto afecta el problema?
+
+ El problema de la escasez de espacios de estacionamiento afecta de manera significativa a Lima, la capital, donde de acuerdo con un estudio realizado por la ONG Luz Ámbar en 2016 se ha demostrado que hay una insuficiencia de alrededor de 45,000 estacionamientos vehiculares en cinco distritos. Sin embargo, esta cifra resulta insuficiente en comparación con el tamaño del parque automotor de la ciudad, que consta de aproximadamente 1 millón 800,000 unidades. Esta disparidad entre la cantidad de vehículos y la disponibilidad de estacionamientos contribuye a la congestión del tráfico y al desafío constante para los conductores de encontrar lugares para estacionar de manera eficiente.
+
 ### 1.2.2 Lean UX Process. <a name="122-lean-ux-process"></a>
 
 #### 1.2.2.1. Lean UX Problem Statements. <a name="1221-lean-ux-problem-statements"></a>
 
+Ante esta situación nuestra Startup se plantea las siguientes Problems Statements:
+
+### PS1:
+
+__Objetivos actuales del producto:__  Facilitar la búsqueda y utilización de espacios de estacionamiento en entornos urbanos, aliviando la congestión del tráfico.
+
+__Problema:__ La escasez de espacios de estacionamiento y la ineficiente búsqueda de lugares para estacionar causan frustración y retrasos a  los conductores urbanos. Estos conductores enfrentan el desafío constante de encontrar lugares de estacionamiento de manera rápida y eficiente, lo que impacta negativamente su experiencia de movilidad y calidad de vida.
+
+__Pregunta solicitud de mejora:__ ¿Cómo podemos diseñar una aplicación intuitiva que permita a los conductores ubicar, reservar y pagar por espacios de estacionamiento de manera rápida, mejorando así su experiencia de movilidad urbana y aliviando la congestión del tráfico?
+
+### PS2:
+
+__Objetivos actuales del producto:__  Ofrecer a los propietarios una plataforma efectiva para gestionar y rentabilizar sus espacios de estacionamiento no utilizados.
+
+__Problema:__ Los propietarios de espacios de estacionamiento no utilizados enfrentan dificultades para encontrar una forma efectiva de aprovechar sus activos. La falta de una solución adecuada para rentabilizar sus espacios limita sus oportunidades de ingresos y subutiliza valiosos recursos.
+
+__Pregunta solicitud de mejora:__¿Cómo podemos diseñar una plataforma que permita a los propietarios de espacios de estacionamiento gestionar sus activos de manera eficiente, establecer precios, disponibilidad y recibir pagos de manera segura, brindándoles así una forma efectiva de aprovechar sus activos y generar ingresos adicionales?
+
 #### 1.2.2.2. Lean UX Assumptions. <a name="1222-lean-ux-assumptions"></a>
+
+### Business Outcomes:
+
+- Aumentar la cantidad de usuarios registrados en la aplicación para establecernos de manera exitosa en el mercado de estacionamientos.
+
+-	Obtener comentarios positivos y referencias de usuarios, generando un crecimiento orgánico de la base de usuarios.
+
+-	Incrementar los ingresos mensuales a través de suscripciones premium.
+
+-	Atraer auspiciadores influyentes que respalden futuras implementaciones y mejoras en el proyecto.
+
+### User Assumptions:
+
+-	Conductores urbanos que buscan una solución eficaz para la búsqueda y utilización de espacios de estacionamiento.
+
+-	Propietarios de espacios de estacionamiento no utilizados que desean generar ingresos adicionales a través de la plataforma.
+
+### User Outcomes:
+
+-	Los conductores encuentran y utilizan espacios de estacionamiento de manera eficiente, ahorrando tiempo y reduciendo frustraciones.
+
+-	Los propietarios de estacionamientos generan ingresos adicionales al alquilar sus espacios no utilizados.
+
+-	Los usuarios se sienten confiados al utilizar la plataforma para resolver sus necesidades de estacionamiento.
+
+### Features Assumptions:
+
+-	Implementación de un sistema de recomendación para sugerir espacios de estacionamiento cercanos según preferencias y disponibilidad.
+
+-	Diseño de una interfaz intuitiva y amigable que permita a los usuarios buscar, reservar y pagar por estacionamientos de manera sencilla.
+
+-	Ofrecer opciones de filtrado por ubicación, precio y disponibilidad para adaptarse a las necesidades individuales de los conductores.
+
+-	Integración de métodos de pago seguros y variados para facilitar transacciones fluidas entre conductores y propietarios.
+
+-	Inclusión de un centro de ayuda y soporte en la aplicación para resolver consultas y problemas de manera rápida y eficiente
+
+-	Ofrecer una variedad de planes de suscripción para adaptarse a las necesidades de conductores y propietarios, incluyendo opciones de suscripción gratuita, premium y empresarial.
+
+-	Conductores urbanos que buscan una solución eficaz para la búsqueda y utilización de espacios de estacionamiento.
+
+-	Propietarios de espacios de estacionamiento no utilizados que desean generar ingresos adicionales a través de la plataforma.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements. <a name="1223-lean-ux-hypothesis-statements"></a>
 
+* Creemos que aumentaremos el número de usuarios registrados en la aplicación (business outcomes). Si los usuarios guest (user), pueden encontrar y utilizar espacios de estacionamiento de manera eficiente (benefit), con la implementación de un sistema de recomendación que sugiere espacios cercanos y disponibles (feature).
+
+    Sabremos que hemos tenido éxito 
+
+    Cuando observemos que más del 75% de los usuarios que se han registrado en la aplicación han realizado reservas de estacionamiento, evidenciando su disposición a invertir en una solución que mejora su experiencia de estacionamiento.
+
+* Creemos que incrementaremos los ingresos mensuales a través de suscripciones y comisiones. (business outcomes) Si los usuarios host (user), generan ingresos adicionales al alquilar sus espacios no utilizados (benefit), con la integración de métodos de pago seguros y variados para facilitar transacciones fluidas entre conductores y propietarios (feature).
+
+    Sabremos que hemos tenido éxito
+
+    Cuando más del 60% de los propietarios de espacios de estacionamiento no utilizados registrados en la plataforma hayan realizado al menos una transacción de alquiler de estacionamiento en un período de tres meses desde su registro.
+
+* Creemos que obtendremos comentarios positivos y referencias de usuarios (business outcomes).  Si los usuarios guest y host (user), se sienten confiados al utilizar la plataforma para resolver sus necesidades de estacionamiento y alquiler (benefit), con la inclusión de un centro de ayuda y soporte en la aplicación para resolver consultas y problemas de manera rápida y eficiente (feature).
+
+    Sabremos que hemos tenido éxito
+
+    Cuando al menos el 80% de los usuarios que han utilizado el centro de ayuda y soporte de la aplicación hayan calificado su experiencia como "satisfactoria" o "muy satisfactoria" en una encuesta de satisfacción del usuario. Además, cuando al menos el 50% de los usuarios hayan referido la plataforma a otros usuarios.
+
+* Creemos que atraeremos auspiciadores influyentes que respalden futuras implementaciones y mejoras en el proyecto. (business outcomes) Si los usuarios guest (user), encuentran y utilizan espacios de estacionamiento de manera eficiente, ahorrando tiempo y reduciendo frustraciones(benefit), con la implementación de una interfaz intuitiva y amigable que permita a los usuarios buscar, reservar y pagar por estacionamientos de manera sencilla (feature).
+
+    Sabremos que hemos tenido éxito 
+
+    Cuando al menos tres auspiciadores influyentes en la industria de estacionamientos o movilidad urbana hayan acordado asociarse con nuestra plataforma para respaldar futuras implementaciones y mejoras en el proyecto en un período de seis meses desde el lanzamiento de la interfaz intuitiva y amigable.
+
+* Creemos que obtendremos comentarios positivos y referencias de usuarios (business outcomes). Si los usuarios guest (user) encuentran y utilizan espacios de estacionamiento de manera eficiente, ahorrando tiempo y reduciendo frustraciones (benefit), ofreciendo opciones de filtrado por ubicación, precio y disponibilidad para adaptarse a las necesidades individuales de los conductores (feature).
+
+    Sabremos que hemos tenido éxito
+
+    Cuando al menos el 90% de los usuarios que han utilizado las opciones de filtrado en la plataforma califiquen su experiencia como "positiva" o "muy positiva" en una encuesta de satisfacción del usuario. Además, cuando al menos el 60% de los usuarios haya recomendado la plataforma a otros conductores.
+
+
+* Creemos que incrementaremos los ingresos mensuales a través de suscripciones y comisiones. (business outcomes).  Si los usuarios guest y host (user), se sienten confiados al utilizar la plataforma para resolver sus necesidades de estacionamiento y alquiler (benefit) con la inclusión de una variedad de planes de suscripción para adaptarse a las necesidades de conductores y propietarios, incluyendo opciones de suscripción gratuita, premium y empresarial (feature).
+
+    Sabremos que hemos tenido éxito
+
+    Cuando el ingreso mensual generado a través de suscripciones y comisiones haya aumentado en un 30% en comparación con el mes anterior a la implementación de los nuevos planes de suscripción. Además, cuando al menos el 50% de los usuarios registrados en la plataforma haya elegido un plan de suscripción (cualquier tipo) en un plazo de tres meses desde la implementación.
+
 #### 1.2.2.4. Lean UX Canvas. <a name="1224-lean-ux-canvas"></a>
 
+![Texto alternativo](https://cdn.discordapp.com/attachments/782453162409328641/1154185832425586748/Lean_UX_Canvas_Template.jpg)
+
 ## 1.3. Segmentos objetivo. <a name="13-segmentos-objetivo"></a>
+
+### Usuario 1: Individuo que busca soluciones convenientes y accesibles para sus necesidades de estacionamiento en entornos urbanos.
+---------------------------------------------------------
+- **Geográficas:**
+
+  - **Ubicación:** Perú
+  - **Lugar de residencia:** Perú
+
+- **Demográficas:**
+
+  - **Sexo:** Hombres o Mujeres
+  - **Edad:** Personas con las edad suficiente para conducir un coche
+
+- **Psicográficas:**
+
+  - **Clase social:** Todas las clases sociales
+  - **Estilo de vida:** Persona que usa su propio auto como transporte, y que no encuentre un estacionamiento cercano a su destino fácilmente.
+
+- **Conductuales:**
+
+  - **Conocimientos:** Manejo de dispositivos tecnologicos con conexión a internet.
+  - **Actitudes:** Busca un espacio de estacionamiento que se encuentre cerca a su destino, y busca un estacionamiento en donde sepa que su auto estará seguro.
+
+
+### Usuario 2: Propietario de espacios de estacionamiento que busca una forma efectiva de sacar provecho de sus activos no utilizados.
+----------------------------------------------------
+- **Geográficas:**
+
+  - **Ubicación:** Perú
+  - **Lugar de residencia:** Perú
+
+- **Demográficas:**
+
+  - **Sexo:** Hombres o Mujeres
+  - **Edad:** Personas mayores de edad
+
+- **Psicográficas:**
+
+  - **Clase social:** Todas las clases sociales
+  - **Estilo de vida:** Personas que cuentan con cochera vacias o espacios libres
+
+- **Conductuales:**
+
+  - **Conocimientos:** Manejo de dispositivos tecnologicos con conexión a internet.
+  - **Actitudes:** Buscar alquilar su espacio de estacionamiento, para sacar un beneficio económico.
 
 # Capítulo II: Requirements Elicitation & Analysis <a name="capítulo-ii-requirements-elicitation--analysis"></a>
 
