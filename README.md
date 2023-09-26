@@ -275,6 +275,22 @@ Carrera: Ingeniería de Software
 Como estudiante de la carrera de Ingeniería de Software, mi aporte al equipo se será garantizar el cumplimiento y realizar contribuciones significativas a nuestro proyecto. A lo largo de mi formación, he tenido la oportunidad de desarrollar habilidades utilizando una variedad de programas para la elaboración de proyectos. Estos conocimientos serán de utilidad para el equipo al llevar a cabo tareas y alcanzar nuestros objetivos
 
 
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/860373439591743511/1156022284381847712/image.png?ex=65137526&is=651223a6&hm=0ec50ac2bcbfb58609e4e5b8b86943cb69f877efa5e492242f848f72315c1bab&"width="200" height="230"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre: Paolo Sebastian Padilla Advincula
+
+Código: U202117993
+
+Carrera: Ingeniería de Software
+
+Como estudiante de la carrera de Ingeniería de Software, apoyaré al equipo con mis conocimientos fuera y dentro de la universidad. Esto  brindará un desarrollo óptimo durante el campo estudiantil.
+
+
 ## 1.2. Solution Profile <a name="12-solution-profile"></a>
 
 ### 1.2.1  Antecedentes y problemática <a name="121-antecedentes-y-problemática"></a>
@@ -901,6 +917,13 @@ Con el fin de mejorar nuestra comprensión de los grupos a los que nos dirigimos
 |13|US27|Visualización de Planes de Suscripción|Como visitor del segmento Guest/Host, deseo acceder a información detallada sobre los planes de suscripción, para poder comparar y entender las diferencias entre cada uno.|2|
 |14|US21|Obtención de Datos a través de la API|Como Developer quiero tener la capacidad de obtener la lista de propietarios, la lista de usuarios y los anuncios publicados en la aplicación para poder utilizar estos datos en aplicaciones o servicios externos.|8|
 |15|US22|Obtener Detalles de un Propietario por ID|Como developer, quiero obtener los detalles de un propietario específico a través de su identificación única (ID), para realizar tareas relacionadas con la gestión de propietarios.|8|
+
+A continuación se muestra la elaboración del Product Backlog en la herramienta Trello:
+
+![PB](/images-3/ProductBacklogTrello.png)
+
+[Link del Trello](https://trello.com/b/mM7cgRvi/parkease)
+
 
 # Capítulo IV: Product Design <a name="capítulo-iv-product-design"></a>
 
