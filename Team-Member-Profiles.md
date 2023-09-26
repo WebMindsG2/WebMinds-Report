@@ -48,6 +48,22 @@ Como estudiante de ingeniería de software, mi contribución al equipo será el 
 
 <tr>
     <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/834550053590925412/1150505863677759548/gustavo.png" width="280" height="250"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre: Gustavo Jandroel Aguirre Rodríguez
+
+Código: U202124162
+
+Carrera: Ingeniería de Software
+
+Como estudiante de la carrera de Ingeniería de Software, mi aporte al equipo se será garantizar el cumplimiento y realizar contribuciones significativas a nuestro proyecto. A lo largo de mi formación, he tenido la oportunidad de desarrollar habilidades utilizando una variedad de programas para la elaboración de proyectos. Estos conocimientos serán de utilidad para el equipo al llevar a cabo tareas y alcanzar nuestros objetivos
+
+
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
       <center><img src="https://cdn.discordapp.com/attachments/860373439591743511/1156022284381847712/image.png?ex=65137526&is=651223a6&hm=0ec50ac2bcbfb58609e4e5b8b86943cb69f877efa5e492242f848f72315c1bab&"width="200" height="230"></center>
     </td>
   </tr>
