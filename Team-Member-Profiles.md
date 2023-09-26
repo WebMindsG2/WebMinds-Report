@@ -44,3 +44,19 @@ Código: U201923446
 Carrera: Ingeniería de Software
 
 Como estudiante de ingeniería de software, mi contribución al equipo será el cumplimiento y aportación de los proyectos. A lo largo de mi aprendizaje como estudiante universitario, me he enfocado en aportar activamente en los trabajos y proyectos grupales que se ha presentado. Espero cumplir con las expectativas de mis compañeros y ayudarlos en lo que más necesitan en el transcurso del ciclo.
+
+
+<tr>
+    <td style="border: 1px solid #dddddd; padding: 8px;">
+      <center><img src="https://cdn.discordapp.com/attachments/860373439591743511/1156022284381847712/image.png?ex=65137526&is=651223a6&hm=0ec50ac2bcbfb58609e4e5b8b86943cb69f877efa5e492242f848f72315c1bab&"width="200" height="230"></center>
+    </td>
+  </tr>
+<br>
+
+Nombre: Orlando Arturo Roca Huapaya
+
+Código: U201919742
+
+Carrera: Ingeniería de Software
+
+Como estudiante de la carrera de Ingeniería de Software, apoyaré al equipo con mis conocimientos fuera y dentro de la universidad. Esto  brindará un desarrollo óptimo durante el campo estudiantil.
