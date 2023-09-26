@@ -53,9 +53,9 @@ Como estudiante de ingeniería de software, mi contribución al equipo será el 
   </tr>
 <br>
 
-Nombre: Orlando Arturo Roca Huapaya
+Nombre: Paolo Sebastian Padilla Advincula
 
-Código: U201919742
+Código: U202117993
 
 Carrera: Ingeniería de Software
 
