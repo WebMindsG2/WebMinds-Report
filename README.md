@@ -47,10 +47,15 @@
 | TB1     | 06-09-2023  | Piero    | Se añadieron los wireframes y mock ups del web application y arreglos en el landing page |
 | TB1     | 07-09-2023  | Piero    | Se corrigieron algunos errores en los user persona y añadieron links |
 | TB1     | 20-09-2023  | Piero    | Se corrigieron errores en los nombres de los archivos de analisis de entrevista y se añadieron sus imagenes |
+<<<<<<< HEAD
 |TP|20-09-2023|Gustavo|Se corrigieron las User Stories|
 |TP|22-09-2023|Gustavo|Se corrigió el Product Backlog|
 |TP|24-09-2023|Gustavo|Se corrigieron los Impact Mapping |
 
+=======
+| TP     | 06-09-2023  |Antonella | chapter 5 was corrected|
+| TP     | 06-09-2023  |Antonella | Sprint Backlog 2 was developed |
+>>>>>>> 44925a77512bd9257247908c87c685b5e7ad9c56
 
 
 
@@ -65,8 +70,10 @@
 |-----------|-------------|--------------|-------------------------------------------------|
 |e697dc70ad35bd254c8ac004750057e65f851d83| Orlando| 20-08-2023   | doc: Advance startup description and target segment in chapter 1 - Added more details to the startup description and expanded on the target segment information in the first chapter.|
 |c2e95ee1bdb3bceda88301a0e164233a0e81fb4f| Orlando| 20-08-2023   |doc: Progress competitors section in chapter 2 - Expanded and updated the competitors section in the second chapter.|
+|031d1edd9db8f5a53c70c37f687ce52a72f3a947| Paolo     | 20-08-2023   |Update README.md|
 |aa30cb351b27bc16160b36c73a942e3d62fb3e29|Gustavo|23-08-2023|doc: Updated interviews and competitor strategies|
 |a7876ac610147ba80f70ea98d34e456eccb16eb9|Gustavo|23-08-2023|doc: Changes in Competitor Analysis information|
+|4cfbf5fcc60af7b93974f1202e2f02f27c9d74a1| Paolo     | 24-08-2023   |doc: User Task Matrix added|
 |45f3f8cb8df5c5461a45ae0ab23d413fb3594dbe| Orlando| 30-08-2023   |doc: Canvas and Hypothesis Statement added|
 |d0fadf606272fd3a9a188c153843642969a3de9f| Antonella    | 01-09-2023   |chore: add initial files of chapter 1: the themes of chapter 1 were developed|
 |83321a4b955c28758f941dd6c4dbd201989fefc5|Gustavo|04-09-2023|doc: User Story development|
@@ -78,6 +85,8 @@
 |e45db51b321758933fb6a26910a583758dc6a095| Piero    | 06-09-2023   |fix: Change content in About Us|
 |20bd9614ca847b192ad81ca13e3761b492935508| Piero    | 06-09-2023   |feat: host information Added|
 |7fd4420c5e81bf8018d4eb76ff1c15735897ac82| Piero    | 06-09-2023   |feat: hero added|
+|8fdec1888f71856680381c255d53b6473baa7877| Paolo     | 06-09-2023   |doc: Needfinding completed|
+|8e1b6c893002c1754ee988abd411924b19187b08| Paolo     | 06-09-2023   |doc: Information Architecture added|
 |11e7f0905d6496e8dd595d2b7266dafc73df5fe8| Piero    | 07-09-2023   |doc: User personas update|
 |5c8de82dd325b6febd5b62caf01d9c5c92d9ae7a| Piero    | 07-09-2023   |doc: Web applications prototype links fixed|
 |b82d6e603462d999794351d7be04c069c6036bd2| Gustavo    | 07-09-2023   |doc: Images chapter III added|
