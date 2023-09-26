@@ -1272,33 +1272,336 @@ Link del video:
 
 ## 5.1. Software Configuration Management. <a name="2"></a>
 
+### Project Management
+A continuación, se procederá a describir cada uno de los productos de software que han sido empleados en el proyecto. 
+Esta sección será beneficiosa para que los desarrolladores actuales y futuros puedan contribuir al desarrollo continuo 
+del proyecto en todas sus etapas.
+
+### Project Management 
+
+-	Trello: https://trello.com/ 
+Se utilizó para gestionar y mantener un seguimiento de las tareas en diferentes etapas: pendientes, en progreso y completadas. Esto nos permite tener una idea clara del progreso y estado de las actividades pendientes en el equipo. Trello es una herramienta web que funciona en la mayoría de los navegadores y solo necesitas registrarte para tener una cuenta activa.
+-	Discord:  https://discord.com/ 
+La plataforma de discord se empleo para realizar las reuniones virtuales con los integrantes del equipo y tener un mejor medio para compartir contenido de las diversas formas (compartir pantalla, imágenes, texto, video, etc.). Esta es una aplicación web, móvil y de escritorio que tiene amplia compatibilidad en cada una de sus versiones, se requerirá tener una cuenta activa.
+
+### Requirements Management
+- Trello: https://trello.com/ 
+Desempeñó un papel fundamental en la gestión de nuestros requisitos. Nos permitió trabajar en equipo en la elaboración de nuestro backlog, brindándonos una vista organizada y cómoda. Además, nos ayudó a establecer prioridades claras y a mantener un enfoque conjunto en nuestros objetivos. Lo mejor de todo es que Trello es una herramienta gratuita, solo requiere que te registres para empezar a utilizarla.
+
+### Product UX/UI Design
+-	UXPressia:   https://uxpressia.com/ 
+Se empleo esta herramienta para la creación de los User Personas, el Customer Journey Map, Empathy Map e Impact Map. Ya que cuenta con plantillas que facilitan el desarrollo de estos artefactos. Además, es colaborativo y gratuito. Para usar este software hace falta registrarnos y se puede acceder a él desde la gran mayoría de navegadores. 
+-	Miro https://miro.com/es/
+Miro ha sido empleado en el desarrollo de los escenarios mapping y escenario mapping para ambos segmentos objetivos.
+-	Figma: https://www.figma.com/ 
+Esta herramienta fue de vital importancia para la creación de los wireframes, mockups y Mobile applications prototyping de manera colaborativa. Asimismo, su acceso es gratuito al contar con una cuanta registrada.
+
+### Software Development
+Para el desarrollo del software para este trabajo se hizo uso de las siguientes herramientas:
+-	HTML: Lenguaje de uso común para páginas web o aplicaciones web.
+
+-	CSS: Lenguaje para el diseño que trabaja de la mano con HTML para poder generar una página web presentable con colores y de manera más organizada.
+
+-	Webstorm: Es un IDE donde se puede trabajar de manera compartida y multiplataforma, donde se puede programar en varios lenguajes para el desarrollo web como HTML, CSS, JavaScript, TypeScript, Angular, etc.
+Link: WebStorm
+- Github: Lo utilizamos para almacenar todos los cambios realizados durante el ciclo de vida de la aplicación.
+-	Link: https://github.com/
+  
+### Software Testing
+
+Para hacer las pruebas de funcionamiento de nuestro landing page como de la aplicación web, se emplearon las herramientas de desarrollador de los principales navegadores web como Google Chrome (https://www.google.com/chrome/), Microsoft Edge (https://www.microsoft.com/en-us/edge?form=MA13FJ ). Estos navegadores cuentan con aplicaciones desktop y móviles las cuales son totalmente gratuitas. En el caso de desktop podemos instalarlos desde sus sitios oficiales, en el caso de móvil, desde la tienda de aplicaciones del sistema operativo en cuestión. 
+### Software Deployment
+Para el despliegue de la landing page, dado que no requería modificaciones frecuentes al ser estática, optamos por no realizar actualizaciones constantes. En su lugar, aprovechamos el sistema de control de versiones de Github para gestionar el despliegue.
+### Software Documentation	
+- Google Drive (https://www.google.com/intl/es-419_pe/drive/ )
+Se ha utilizado Google Drive para subir archivos de documentos y presentaciones. Además se han utilizado herramientas como Google Doccs y Google Slides que permiten el desarrollo colaborativo de los informes a entregar.
+
+-	Lucidchart: (https://www.lucidchart.com/ )
+Utilizamos Lucidchart para la creación de wireflows, user flows y diagramas UML. Esta plataforma nos facilitó la elaboración de diversos tipos de diagramas y procesos secuenciales de manera sencilla. Además, es accesible a través del navegador y solo requiere que tengas una cuenta para comenzar a utilizarla.
+
+-	Structurizr:  https://structurizr.com/ 
+Esta es una herramienta que nos ha facilitado la creación rápida de diagramas C4. Utiliza una sintaxis similar a la de un lenguaje de programación, lo que simplifica su uso.
+
+-	Vertabelo: https://vertabelo.com/ 
+Es una aplicación web colaborativa que facilita el diseño e implementación de base de datos e una amplia variedad de motores.
+
+
 ### 5.1.1. Software Development Environment Configuration. <a name="3"></a>
+
 
 ### 5.1.2. Source Code Management. <a name="4"></a>
 
+El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github. 
+
+Organization: https://github.com/WebMindsGroup 
+
+Landing Page Repository: https://github.com/WebMindsGroup/WebMinds-LandingPage 
+
+Asimismo, para llevar a cabo un mejor control de cómo crear ramas y realizar cambios en el código fuente, se procedió a utilizar GitFlow.
+Ramificaciones principales: Se establecieron dos ramas principales en el control de versiones:
+
+- master: Esta rama contiene las versiones oficiales del proyecto que están listas para ir a producción.
+-	develop: Esta rama es donde se integran todas las características nuevas y cambios antes de ser liberados. Es una especie de área de pruebas.
+### Ramas auxiliares:
+-	Ramas de características (feature): Cada nueva característica o funcionalidad que se está desarrollando se crea en su propia rama llamada "feature". Por ejemplo, si se está trabajando en la función de inicio de sesión, se crearía una rama llamada "feature/login". Una vez que la característica está completa y probada, se une a la rama develop.
+-	Rama de lanzamiento (release): Antes de lanzar una nueva versión, se crea una rama de lanzamiento. En esta rama se pueden hacer correcciones finales y preparativos para la versión. Cuando todo esté listo, esta rama se fusiona con master para liberar una nueva versión.
+-	Ramas de corrección urgente (hotfix): Si surge un error crítico en la versión actual en producción, se crea una rama de corrección urgente. Esto permite solucionar el error de inmediato sin tener que esperar a la próxima versión planificada.
+-	Convenciones de commits: Los mensajes de commit siguen un formato específico llamado "Conventional Commits" en su versión 1.0.0 https://www.conventionalcommits.org/en/v1.0.0/  . Esto facilita la lectura y el seguimiento de los cambios realizados en el código.  Por ello seguimos el siguiente formato:
+<type>[optional scope]:<description>
+Donde: 
+
+-	type: Describe el tipo de cambio que se realizó. Puede ser algo como una nueva característica (feat), una corrección (fix), una documentación (docs), etc.
+-	scope: Indica el alcance o área del proyecto que se vio afectada por este cambio.
+-	description: Es un resumen breve de los cambios realizados en el código.
+### Convenciones de versionamiento:
+Para nombrar las versiones del software, se utiliza el formato de "Semantic Versioning 2.0.0". Esto significa que las versiones se componen de tres números, por ejemplo, X.Y.Z:
+-	X (Mayor): Este número representa una versión mayor. Se incrementa cuando se realizan cambios que no son compatibles con las versiones anteriores. Comienza desde 0 para el desarrollo inicial y se cambia a 1 cuando la versión está lista para ser utilizada por el público. Por convención, los números Y y Z se reinician a 0 cada vez que X aumenta.
+-	Y (Menor): Este número representa una versión menor. Aquí se incluyen cambios que son compatibles con las versiones anteriores. Los commits realizados desde las ramas de lanzamiento se agregan aquí cada vez que se agregan nuevas características. Por convención, el número Z se reinicia a 0 cada vez que Y aumenta.
+-	Z (Parche): Este número representa parches y correcciones de errores menores. Aquí se incluyen los commits realizados desde las ramas de corrección urgente que se fusionan en la rama "master" para corregir errores críticos.
+
 ### 5.1.3. Source Code Style Guide & Conventions. <a name="5"></a>
+
+Para el desarrollo de la parte de HTML y CSS se utlizara Google HTML/Css Style Guide, ya que contiene las convenciones que se deben tener en cuenta al trabajar cpnn dichas tecnologías. Para guirarnos de las buenas practicas accederemos mediante este enlace: https://google.github.io/styleguide/htmlcssguide.html. Entre algunas convenciones podemos mencionar:
+
+### HTML y CSS:
+
+
+- **Declaración del tipo de documento:** Siempre declarar el tipo de documento con `<!DOCTYPE html>`.
+- **Nombres de elementos en minúsculas:** Utilizar siempre letras en minúsculas para los nombres de los elementos HTML como `<p>`, `<h1>`, `<section>`, entre otros.
+- **Cierre de elementos HTML:** Cerrar siempre los elementos HTML, por ejemplo, `<p></p>`.
+- **Comillas en atributos:** Siempre poner entre comillas los atributos dentro de un elemento HTML, como `<p class="name"></p>`.
+- **Atributos para imágenes:** Especificar `alt`, `width`, y `height` para imágenes.
+- **Espaciado y formato estandarizado:** Mantener un espaciado y un formato de código consistentes.
+- **Evitar líneas de código extensas:** Dividir el código en líneas más cortas para facilitar la lectura.
+- **Uso de etiquetas meta:** Utilizar meta tags al inicio y asegurarse de incluir el elemento `<title></title>`.
+
+
+  ### JavaScript:
+Para el lenguaje JavaScript, se seguirá la guía de estilo proporcionada por Google en el repositorio de GitHub  [ https://google.github.io/styleguide/jsguide.html ]. Algunas de las convenciones incluyen:
+
+-	Nomenclatura en camelCase: Nombrar variables y funciones utilizando camelCase, por ejemplo, numberArray.
+-	Comillas simples: Utilizar comillas simples para strings, como const message = 'This is a string';.
+-	Uso de punto y coma: Agregar un punto y coma al final de cada sentencia.
+-	Uso de let o const: Evitar declarar variables con var y en su lugar utilizar let o const.
+-	Espaciado y formato de código: Mantener un formato de código claro y espaciado adecuado.
+-	Manejo de errores: Implementar manejo de errores y excepciones de forma apropiada.
+-	Comentarios y documentación: Utilizar comentarios y documentación de código según sea necesario.
+### Gherkin (Archivos .feature):
+
+Para el lenguaje Gherkin, se seguirán las convenciones mencionadas en "Make your Gherkin Specifications More Readable" para escribir especificaciones claras y legibles. Se puede conocer más sobre la forma de escribir en el lenguaje de Gerkhin mediante el siguiente enlace: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ .  A continuación, algunas de las convenciones incluyen:
+
+-	Lenguaje simple: Escribir especificaciones en un lenguaje simple y fácil de entender.
+-	Palabras clave Given/When/Then/And: Utilizar las palabras clave Given, When, Then, y And para los pasos del escenario.
+-	Verbos finitos: Usar verbos finitos para describir acciones en los escenarios.
+-	Evitar redundancias: Evitar redundancias en la descripción de los pasos en el escenario.
+-	Formato consistente: Mantener un formato y estilo consistentes en toda la especificación.
+
+### Vue.js:
+Para el desarrollo con Vue JS se tiene como referencia las convenciones ya definidas por el mismo equipo de Vue con el objetivo de mantener un formato entendible y que ayude en el mantenimiento del sistema. Se puede visualizar las convenciones en el siguiente enlace: https://v2.vuejs.org/v2/style-guide/?redirect=true . a continuación se presentan algunas convenciones en Vue JS:
+
+-	Nombres de componentes deben tener múltiples palabras.
+-	El componente data debe ser una función que retorne valores.
+-	Detalles de propiedades deben estar definidos.
+-	Usar key con v-for.
+-	Evitar mezclar v-if con v-for en un mismo scope.
+
+
+### C#:
+Para el uso de C# Microsoft provee una quia de estilos bastante completa cual nos permitirá aplicar estándares aplicados por Microsoft. Se puede conocer mas sobre esto en el siguiente link: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions  . entre algunas convenciones podemos mencionar:
+-	Se utiliza PascalCase para nombrar clases, estructuras o registros.
+-	Los parámetros se nombran en camelCase.
+-	Los comentarios se escriben en líneas separadas y se evita el exceso de comentarios.
+-	Se respeta el espaciado después de comas y operadores.
+-	Las llaves deben ir en una línea nueva al declarar una clase, estructura, entre otros
+
+### .NET Framework:
+Finalmente, para .NET Framework también Microsoft provee una guía de estilos bastante completa as cuales abarcan varias nociones involucradas en el uso de este framework. Se puede acceder a la guía desde el siguiente enlace: https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines . A continuación, se mencionan algunas convenciones:
+
+-	Se siguen las guías de estilo de Microsoft para .NET Framework.
+-	Los archivos deben incluir los comentarios de licencia de .NET.
+-	Se evita el uso de this a menos que sea necesario.
+-	Se especifica la visibilidad de los miembros (por ejemplo, private).
+-	Las llaves se colocan en una nueva línea separada del código.
+-	Se emplea espaciado después de comas y operadores.
 
 ### 5.1.4. Software Deployment Configuration.  <a name="6"></a>
 
+Para el despliegue de nuestra landing page, en el campo de las configuraciones debemos tener presente lo siguiente: tener un archivo en formato HTML llamado index.HTML con otras carpetas o directorios con los nombres:
+- Assets: Contiene el archivo style.css
+- Scripts: Contiene el archivo script.js
+- Image: Contiene las imágenes utilizadas para la página web.
+
 ## 5.2. Landing Page, Services & Applications Implementation. <a name="7"></a>
 
-### 5.2.1. Sprint n <a name="8"></a>
+El Sprint Planning es un encuentro que se lleva a cabo al comienzo de cada Sprint dentro del enfoque de Scrum. En esta reunión, el equipo de Scrum se reúne para establecer la meta del Sprint y debatir sobre los elementos del backlog del producto. Se escogen las tareas que serán abordadas en el próximo Sprint. Además, el equipo de desarrollo define los elementos específicos del backlog del Sprint y crea un plan detallado para su cumplimiento. Esta reunión, que por lo general tiene una duración de unas pocas horas, involucra a todos los miembros del equipo Scrum, incluyendo el Scrum Master y el Product Owner. El propósito fundamental del Sprint Planning es generar una comprensión clara y compartida acerca de los objetivos a alcanzar durante el Sprint y cómo se llevarán a cabo.
+
+|Sprint #|Sprint 1|
+| :- | - |
+|Sprint Planning Background||
+|Date|30 de Agosto del 2023|
+|Time|15:00 horas (GMT-5)|
+|Location|Reunión virtual (Plataforma Discord)|
+|Prepared By|WebMinds|
+|Attendees (to planning meeting)|Todos los miembros del grupo|
+|Sprint 1 – 1 Review Summary|Dado que se trata del primer sprint, no hay un review summary de un sprint anterior |
+|Sprint 1 – 1 Retrospective Summary|En este sprint se planea desarrollar el landing page con el framework de estilos Tailwind, además se converso sobre el contenido del los textos dentro del langing page y el dise;o que se ha implementado anteriormente a través de Figma. Al finalizar este sprint, el landing page debe estar desplegado en Netlyfy y cualquien usuario debería poder acceder y vualizar la página a través del link.|
+|Sprint Goal & User Stories||
+|Sprint 1 Goal|Implementar y desplegar Landing Page|
+|Sprint 1 Velocity|15|
+|Sprint of Story Points|8|
+
+### 5.2.1. Sprint 1 <a name="8"></a>
+
+A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
+
+
+
+|Sprint #|Sprint 2|
+| :- | - |
+|Sprint Planning Background||
+|Date|2023-09-22|
+|Time|18:19|
+|Location|Reunión virtual (Plataforma Discord)|
+|Prepared By|Antonella Gonzales|
+|Attendees (to planning meeting)|Miembros de webmindsgroup|
+|Sprint 1 Review Summary|<p>-Se aplicaron mejoras en los capítulos que necesitaban mejora según la retroalimentación</p><p>-Se inició con el desarrollo de los componentes de la aplicación web</p>|
+|Sprint 1-2 Retrospective Summary|Se plantea desarrollar avances del front-end de la aplicación web, donde se incluirán las vistas para la autenticación del usuario y vistas core  del  usuario reclutador. Además, Además se planea implementar la configuración del idioma con la librería de i18n con Vue. Por otro lado, se espera desarrollar la sección de términos de servicio. Al finalizar este sprint, el landing page debe tener una versión actualizada y una demo de la aplicación web front-end deben estar desplegados |
+|Sprint Goal & User Stories||
+|Sprint 1 Goal|Como Startup el Goal de este Sprint es implementar la mayoría de los componentes planificados en nuestro mockup.|
+|Sprint 1 Velocity|50|
+|Sprint of Story Points|30|
+
 
 #### 5.2.1.1. Sprint Planning 1. <a name="9"></a>
 
+
+
 #### 5.2.1.2. Sprint Backlog 1. <a name="10"></a>
+
+En el contexto de las aplicaciones web, el Sprint Backlog puede contener tareas como desarrollar nuevas funcionalidades, corregir errores o mejorar el rendimiento del sitio web. El equipo de desarrollo trabaja en el Sprint Backlog durante el Sprint para completar las tareas y lograr los objetivos del Sprint. Es importante que el equipo tenga en cuenta la prioridad y el valor de las tareas para asegurar que se estén abordando las más 
+importantes para el éxito del proyecto.
+
+
+
+<table><tr><th colspan="1" valign="top"><a name="_hlk146312110"></a>Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User story</td><td colspan="6" valign="top">Work Item/Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top"><p>Estimation</p><p>(Hours)</p></td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status(To-do InProcess ToReview Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU12</td><td colspan="1" rowspan="2" valign="top">Sección inicial del landing page</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Repositorio para el landing page</td><td colspan="1" valign="top">Crear el repositorio de Github para el alnding page</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Diseño de la sección inicial del landing page</td><td colspan="1" valign="top">Desarrollar la sección inicial del landing page</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>HU13</p><p></p></td><td colspan="1" rowspan="2" valign="top"><p>Landing page para-Host y guest</p><p> </p></td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseñar landing page para visitantes</td><td colspan="1" valign="top">Implementar la información sobre los beneficios de ser un host</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Diseñar landing page para el guest</td><td colspan="1" valign="top">Implementar la información sobre los veneficios de ser un guest</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">HU14</td><td colspan="1" valign="top">Landing page sobre nosotros</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseñar landing page sobre nosotros</td><td colspan="1" valign="top">Integrar opciones de pago</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top"><p>Piero</p><p></p></td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">HU12</td><td colspan="1" valign="top">Landig page para team Designer</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Sección de Team Designer</td><td colspan="1" valign="top">Desarrollar la sección team designer.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Paolo </td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">HU04</td><td colspan="1" valign="top">Landing page para suscripcion </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Sección de subscription</td><td colspan="1" valign="top">Implementar la sección subscription</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">HU16</td><td colspan="1" valign="top"><p></p><p>Footer de la landing page</p></td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">sección de Footer de la landing page</td><td colspan="1" valign="top">Añadir un Footer en el landing page con link de nuestras redes sociales y como pueden contactarnos</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">To-do</td></tr>
+</table>
+
+
+
+El backlog para este segundo sprint es el que se muestra a continuación:
+
+<table><tr><th colspan="1" valign="top"><a name="_hlk146312129"></a>Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
+<tr><td colspan="2" valign="top">User story</td><td colspan="6" valign="top">Work Item/Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top"><p>Estimation</p><p>(Hours)</p></td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status(To-do InProcess ToReview Done)</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top"><p></p><p>HU01</p></td><td colspan="1" rowspan="3" valign="top">Creación de cuenta</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz de la creación de cuenta  </td><td colspan="1" valign="top">Implementar interfaz de los formularios de cuenta tanto para el host y guest</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Desarrollo de código front-end </td><td colspan="1" valign="top">Desarrollar la interfaz de usuario </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Desarrollar mensaje de confirmación de la creación de cuenta </td><td colspan="1" valign="top">Implementar una notificación de éxito para la creación de cuenta</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU02</td><td colspan="1" rowspan="2" valign="top">Inicio de sección </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz de usuario del inicio de sesión de cuentas</td><td colspan="1" valign="top">Implementar interfaz de los formularios para inicio de sesión tanto para host y guest </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Desarrollo de código front-end </td><td colspan="1" valign="top">Desarrollar la página de inicio de sesión </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU03</td><td colspan="1" rowspan="2" valign="top">Recuperación de cuenta </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Formulario de recuperación de contraseña </td><td colspan="1" valign="top">Implementar interfaz estática para la petición de recuperación de contraseña  </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Desarrollo de código front-end </td><td colspan="1" valign="top"><p></p><p>Implementar el flujo de recuperación de contraseña </p></td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Antonella</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU05</td><td colspan="1" rowspan="3" valign="top">Edición de perfil</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz del perfil de usuario </td><td colspan="1" valign="top">Implementar interfaz de usuario con datos de la cuenta.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Implementación de componentes de entrada de datos</td><td colspan="1" valign="top">`  `Crear componentes de entrada de datos </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Validación de datos </td><td colspan="1" valign="top">Implementar validación de datos en el front-end </td><td colspan="1" valign="top"></td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU04</td><td colspan="1" rowspan="3" valign="top">Método de pago </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la página de métodos de pago</td><td colspan="1" valign="top">Implementar interfaz de usuario </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top"><p>Orlando</p><p></p></td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Integrar opciones de pago </td><td colspan="1" valign="top">Implementar opciones de pago </td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Validación de datos de pago </td><td colspan="1" valign="top">Realizar validaciones de los datos ingresados </td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU05</td><td colspan="1" rowspan="2" valign="top">Historial de pagos</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz de historial de pagos</td><td colspan="1" valign="top">Desarrollar la interfaz de historial de pagos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Orlando </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Opciones de filtro  </td><td colspan="1" valign="top">Implementar opciones de filtrado  </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU06</td><td colspan="1" rowspan="2" valign="top">Búsqueda de espacios de estacionamiento </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la página de búsqueda  </td><td colspan="1" valign="top">Diseñar la interfaz de usurario de la página de búsqueda  </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Orlando </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">interfaz de usuario de búsqueda  </td><td colspan="1" valign="top">Implementar la interfaz de usuario de búsqueda </td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top"></td><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Integración de la funcionalidad de búsqueda </td><td colspan="1" valign="top">Desarrollar funcionalidad de búsquedas en tiempo real </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Orlando</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU07</td><td colspan="1" rowspan="3" valign="top">Visualización de la información de un espacio de estacionamiento </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la página de visualización de espacio </td><td colspan="1" valign="top">Diseñar la interfaz de usuario de la página de visualización de información</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Interfaz de usuario de visualización </td><td colspan="1" valign="top"><p></p><p>Implementar la interfaz de usuario de visualización</p></td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Presentación de datos </td><td colspan="1" valign="top">Desarrollar la forma en que se mostraran los detalles del espacio de estacionamiento </td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU08</td><td colspan="1" rowspan="3" valign="top">Filtrado de búsqueda </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la interfaz de usuario </td><td colspan="1" valign="top">Diseñar la interfaz de usuario para permitir aplicar filtro a los resultados de búsqueda </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Interacción con datos </td><td colspan="1" valign="top">Implementar la lógica que permita que los filtros interactúen con los datos de búsqueda </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Actualización dinámica de resultados </td><td colspan="1" valign="top">Desarrollar la actualización dinámica del resultado</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU12</td><td colspan="1" rowspan="4" valign="top">Visualización y Confirmación de Pago</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la Página de Confirmación de Pago</td><td colspan="1" valign="top">Crear el diseño de la página que mostrara un resumen de la transacción de pago </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">implementación de la interfaz de usuario </td><td colspan="1" valign="top">Desarrollar la interfaz de usuario que permita mostrar información de pago </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Confirmación de pago </td><td colspan="1" valign="top">Desarrollar la lógica que permite la transacción de pago </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU13</td><td colspan="1" rowspan="4" valign="top">Compra de Suscripciones</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz de compra de suscripciones</td><td colspan="1" valign="top">Implementar las opciones de suscripción </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Integración de pasarela de pago </td><td colspan="1" valign="top">Integrar una pasarela de pago </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Validación de datos de usuario </td><td colspan="1" valign="top">Implementar la validación de datos de usuario </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T04</td><td colspan="1" valign="top">Generaciones de recibos y confirmaciones </td><td colspan="1" valign="top">Desarrollar la lógica para generar recibos y confirmaciones de compra</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">HU27</td><td colspan="1" valign="top">Visualización de planes de suscripción </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz de visualización de planes de suscripción </td><td colspan="1" valign="top">Implementar interfaz de visualización de planes</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU15</td><td colspan="1" rowspan="3" valign="top">Actualización de Métodos de pago </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la página de actualización de pagos </td><td colspan="1" valign="top">Diseñar interfaz de usuario de actualización de pagos </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Formularios interactivos </td><td colspan="1" valign="top">Implementar formularios interactivos </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Validación de datos del usuario </td><td colspan="1" valign="top">Implementar la validación del lado del cliente </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Paolo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU28</td><td colspan="1" rowspan="2" valign="top">Cambio de idioma</td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la interfaz de usuario multilingüe </td><td colspan="1" valign="top">Crear interfaz de usuario para mostrar contenido en múltiples idiomas </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Opción de cambio de idioma</td><td colspan="1" valign="top">Implementar la opción de cambio de idioma</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU9</td><td colspan="1" rowspan="3" valign="top">Contacto de servicio técnico </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Interfaz de contacto de servicio técnico</td><td colspan="1" valign="top">Implementar la interfaz de servicio técnico </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Formularios de contacto </td><td colspan="1" valign="top">Implementar el formulario e contacto </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">T03</td><td colspan="1" valign="top">Validación de datos del formulario </td><td colspan="1" valign="top">Realizar validaciones del lado del cliente </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU10</td><td colspan="1" rowspan="4" valign="top">Tutoría de uso de la aplicación </td><td colspan="1" valign="top">T01</td><td colspan="1" valign="top">Diseño de la página del tutorial </td><td colspan="1" valign="top">Crear el diseño de la página que mostrar el tutorial interactivo </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T02</td><td colspan="1" valign="top">Interfaz del tutorial </td><td colspan="1" valign="top">Desarrolla la interfaz del tutorial   </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">TO3</td><td colspan="1" valign="top">Creación de contenido de tutorial </td><td colspan="1" valign="top">Crear y dar formatos a los contenidos del tutorial </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">To-do</td></tr>
+<tr><td colspan="1" valign="top">T04</td><td colspan="1" valign="top">Funcionalidad de activación o desactivación del tutorial </td><td colspan="1" valign="top">Agregar funcionalidades para activar o desactivar tutorial </td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gustavo</td><td colspan="1" valign="top">To-do</td></tr>
+</table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review. <a name="11"></a>
 
+A continuacion, se presentan los commits realizados en el repositorio del landing page en Github.
+
+|Repository|Branch|Commit Id|Commit Message|Committed on (Date)|
+| :- | :- | :- | :- | :- |
+|Landing Page|develop |d0d6a49|index-about-us.html|11/09/2023|
+|Landing Page|develop|ed5979a|Landing-Page/index.html|11/09/2023|
+|Landing Page|develop|2fcab5e|guest-host-image/guest.jpg|11/09/2023|
+|Landing Page|develop|e45db51|indexGuest.html|11/09/2023|
+|Landing Page|develop|fb042b5|Landing-Page/Assets/style.css|11/09/2023|
+|Landing Page|develop|c703de3|Landing-Page/index.html|11/09/2023|
+|Landing Page|develop|fbebf39|image-hero/hero-image.jpg|11/09/2023|
+
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review. <a name="12"></a>
+
+Debido a que estamos en la etapa de diseño del prototipo de la aplicación web no podemos realizar los respectivos Tests. No obstante, se está evaluando qué aplicaciones usar para realizar las pruebas y validaciones correspondientes para desarrollar una efectiva aplicación web y que no contenga errores.
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. <a name="13"></a>
 
+A continuación, se muestra screenshots de la landing page desarrollada y desplegada.
+
+![imagen 1 ](https://cdn.discordapp.com/attachments/891740823924903949/1154347945286705163/image.png)
+
+![imagen 2 ](https://media.discordapp.net/attachments/891740823924903949/1154348041390784562/image.png?width=892&height=376 )
+
+![imagen 3 ](https://media.discordapp.net/attachments/891740823924903949/1154348041751506944/image.png?width=892&height=388 )
+
+![imagen 4 ]( https://media.discordapp.net/attachments/891740823924903949/1154348145682157608/image.png?width=892&height=291)
+
+![imagen 5 ]( https://media.discordapp.net/attachments/891740823924903949/1154348145942212648/image.png?width=892&height=96)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. <a name="14"></a>
+
+Como se mencionó anteriormente, debido a que estamos en la etapa de diseño del prototipo de la aplicación web no podemos documentar la relación de los endpoints.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. <a name="15"></a>
 
+Para el presente sprint, se ha desarrollado el landing page. Para el despliegue se han utilizado las siguentes herramientas:
+
+- Git: Sistema de control de versiones que nos ayudó a trabajar en equipo durante el desarrollo del landing page.
+-	GitHub: Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones de nuestro proyecto 
+-	GitFlow: Flujo de trabajo que nos ayudo a controlar el avance de cada integrante del equipo en el desarrollo del landing page.
+-	Netlify: Plataforma que automatiza webs estáticas que nos permitió alojar y desplegar el alnding page.
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint. <a name="16"></a>
+
+Team Collaboration Insights hace referencia a una variedad de datos e información que proporciona información sobre cómo un equipo está colaborando y trabajando en conjunto. Esto puede incluir métricas como frecuencia de comunicación, niveles de participación, progreso del proyecto y más.
+
+![Logo de GitHub](https://cdn.discordapp.com/attachments/891740823924903949/1154349951447466014/image.png) 
+![Logo de GitHub](https://cdn.discordapp.com/attachments/891740823924903949/1154349722774011986/image.png) 
 
 ## 5.3. Validation Interviews. <a name="17"></a>
 
@@ -1314,40 +1617,62 @@ Link del video:
 
 ## Conclusiones Conclusiones y recomendaciones. <a name="23"></a>
 
+ - La aplicación ParkEase tiene el potencial de abordar un problema real y común en entornos urbanos, que es la escasez de espacios de estacionamiento y la búsqueda ineficiente de lugares para estacionar. La propuesta de la aplicación para permitir a los usuarios buscar, reservar y pagar por espacios de estacionamiento de manera eficiente, así como permitir a los propietarios de espacios registrarse y alquilar a través de la plataforma, puede tener un impacto significativo en la experiencia de los conductores y en la congestión del tráfico en las áreas urbanas.
+  - Después de delimitar las funcionalidades de ParKEase a partir del capítulo cuatro, se ha realizado la planificación para el despliegue del landing page y web applications, partiendo de las especificaciones de estilo, hasta la realización de los wireframes y mockups. Además de completar el despliegue del landing page con HTML, CSS y JavaScript, dando uso a la plataforma de control de versiones, GitHub.
+ - Creemos que se han cumplido adecuadamente todos los criterios solicitados para esta primera entrega. Cabe mencionar que el trabajo colaborativo y bien planificado ha sido muy importante para completar las secciones de este informe, como recomendación, sería excelente tener fechas y horarios preestablecidos para cada reunión.
+
 ## Video About-the-Team.  <a name="24"></a>
 
 # Bibliografía  <a name="25"></a>
 
 # Anexos <a name="26"></a>
 
-[User Persona]()
+[Enlace 01. Lean UX Canvas](https://miro.com/app/board/uXjVMrjs1Mw=/?share_link_id=727239015565)
 
-[User Journey Mapping]()
+[Enlace 02. User Persona - Segmento Host](https://drive.google.com/file/d/1vFNLMJcazFA45j1NGpGZo6T48EKLQX4b/view?usp=sharing)
 
-[Empathy Mapping]()
+[Enlace 03. User Persona - Segmento Guest](https://drive.google.com/file/d/1oRy5a5WyUEU2q4oKVxRW7BmJ6tqA8TVl/view?usp=sharing)
 
-[As-is Scenario Mapping]()
+[Enlace 04. User Journey Mapping - Segmento Host](https://miro.com/app/board/uXjVMotJnis=/?share_link_id=730883802732)
 
-[Landing page Wireframes]()
+[Enlace 05. User Journey Mapping - Segmento Guest](https://miro.com/app/board/uXjVMotJnis=/?share_link_id=730883802732)
 
-[Landing page Mock-ups]()
+[Enlace 06. Empathy Mapping - Segmento Host](https://miro.com/app/board/uXjVMozsFEk=/?share_link_id=536369981941)
 
-[Web Applications Wireframes]()
+[Enlace 07. Empathy Mapping - Segmento Guest](https://miro.com/app/board/uXjVMozsFEk=/?share_link_id=536369981941)
 
-[Web Applications Wireflow Diagrams]()
+[Enlace 08. AS-IS Scenario Mapping - Segmento Host](https://miro.com/app/board/uXjVMozsFEk=/?share_link_id=536369981941)
 
-[Web Applications Mock-ups]()
+[Enlace 09. AS-IS Scenario Mapping - Segmento Guest](https://miro.com/app/board/uXjVMozsFEk=/?share_link_id=536369981941)
 
-[Web Applications User Flow Diagrams]()
+[Enlace 10. TO-BE Scenario Mapping - Segmento Host](https://miro.com/app/board/uXjVMn1k4DY=/?share_link_id=577753420512)
 
-[Explicación del web applications Prototyping]()
+[Enlace 11. TO-BE Scenario Mapping - Segmento Guest](https://miro.com/app/board/uXjVMn1k4DY=/?share_link_id=577753420512)
 
-[Domain Driven Software Architecture Diagrams C4]()
+[Enlace 12. Impact Mapping N°1](https://miro.com/app/board/uXjVMn1k4DY=/?share_link_id=577753420512)
 
-[Class Diagrams]()
+[Enlace 13. Impact Mapping N°2](https://miro.com/app/board/uXjVMn1k4DY=/?share_link_id=577753420512)
 
-[Database Diagram]()
+[Enlace 14. Landing Page Wireframe](https://www.figma.com/file/NuFx225k1dH65JUiF840up/ParkEase-LandingPage-Mobile-(Copy)?type=design&node-id=0-1&mode=design&t=YlrHgGZRFeeXqSj7-0)
 
-[Organización en GitHub]()
+[Enlace 15. Landing Page Mock-Up](https://www.figma.com/file/Q9B07z1mUm16qGXD2kWfm5/ParkEase-LandingPage-Desktop-(Copy)?type=design&node-id=0%3A1&mode=design&t=zmGk6dg67FruALuG-1)
 
-[Link del Landing Page desplegado]()
+[Enlace 16. Web Applications Wireframes](https://www.figma.com/file/hskkxmfjjSNjqYkdBIoUlg/Mock-up?type=design&node-id=0%3A1&mode=design&t=8WddEBjaGu6UPNaM-1)
+
+[Enlace 17. Web Applications Wireflow Diagrams](https://miro.com/app/board/uXjVMoKyCnU=/?share_link_id=864615348987)
+
+[Enlace 18. Web Applications Mock-Ups](https://www.figma.com/file/hskkxmfjjSNjqYkdBIoUlg/Mock-up?type=design&node-id=0%3A1&mode=design&t=8WddEBjaGu6UPNaM-1)
+
+[Enlace 19. Web Applications User Flow Diagrams](https://miro.com/app/board/uXjVMoKyCnU=/?share_link_id=864615348987)
+
+[Enlace 20. Explicación del Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EcEuPGWuCGdPsPl8sIY6SFIBdo3C39AfcYRA3U7P58k6hw?e=Rm0x1b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)
+
+[Enlace 21. Artefacto del Web Applications Prototyping](https://www.figma.com/proto/hskkxmfjjSNjqYkdBIoUlg/Mock-up?type=design&node-id=838-801&t=56PFpOeL9u0Q1qER-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=838%3A801)
+
+[Enlace 22. Domain-Driven Software Architecture. Diagramas C4](https://structurizr.com/share/85856/063d8459-03b8-4fc9-b984-0ddd4dfde01e)
+
+[Enlace 23. Class Diagrams](https://drive.google.com/file/d/1XGeTqNc6SPzIaoVt85tqq6mQlm2kmzQy/view?usp=sharing)
+
+[Enlace 24. Database Diagram](https://drive.google.com/file/d/1nFUv7BJHsYfSukL7g8pygvNx2cpT8bEM/view)
+
+[Enlace 25. GitHub Organization's](https://github.com/WebMindsGroup)
