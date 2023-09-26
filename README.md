@@ -47,15 +47,11 @@
 | TB1     | 06-09-2023  | Piero    | Se añadieron los wireframes y mock ups del web application y arreglos en el landing page |
 | TB1     | 07-09-2023  | Piero    | Se corrigieron algunos errores en los user persona y añadieron links |
 | TB1     | 20-09-2023  | Piero    | Se corrigieron errores en los nombres de los archivos de analisis de entrevista y se añadieron sus imagenes |
-<<<<<<< HEAD
 |TP|20-09-2023|Gustavo|Se corrigieron las User Stories|
 |TP|22-09-2023|Gustavo|Se corrigió el Product Backlog|
 |TP|24-09-2023|Gustavo|Se corrigieron los Impact Mapping |
-
-=======
 | TP     | 06-09-2023  |Antonella | chapter 5 was corrected|
 | TP     | 06-09-2023  |Antonella | Sprint Backlog 2 was developed |
->>>>>>> 44925a77512bd9257247908c87c685b5e7ad9c56
 
 
 
